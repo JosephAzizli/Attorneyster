@@ -4,7 +4,7 @@ import pattern from './pattern.svg'
 import lawyer from './vekilqaqash.svg'
 const Intro = () => {
   return (
-    <div className="container">
+    <div className="Introduction row">
         <div className="col-12 col-md-6 left-side">
         <img src={pattern} alt="" />
         <h1>We're Group Of Certified Law Professionals</h1>

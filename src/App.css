@@ -1,4 +1,10 @@
+body{
+  background-color: #161D27;
+}
 .App{
   padding: 0 40px;
-  background-color: #161D27;
+}
+
+a, p, h1, span{
+  color: #fff;
 }
