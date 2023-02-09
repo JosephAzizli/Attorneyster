@@ -10,8 +10,9 @@ body{
 }
 
 .mine{
-    width: 350px;
-    height: 85px;
+    /* max-width: 350px;
+    max-height: 85px; */
+    padding: 24px 71px 14px;
     text-decoration: none;
     color: #fff;
     display: flex;

@@ -2,7 +2,6 @@
 .Introduction{
     display: flex;
     background-color: #161D27;
-    overflow-x: hidden;
 }
 .left-side{
     /* padding-bottom: 170px; */
@@ -28,7 +27,6 @@ font-style: normal;
 font-weight: 400;
 font-size: 22px;
 line-height: 40px;
-/* or 180% */
 
 letter-spacing: 0.4px;
 

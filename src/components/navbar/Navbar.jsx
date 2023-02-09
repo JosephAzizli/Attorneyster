@@ -25,7 +25,7 @@ const Navbar = () => {
             <div>
             <img src={phone} alt="" />
             <div>
-              <p>Call Us On</p>
+              <p>Call Us On:</p>
               <a href="">911-987654321</a>
             </div>
             </div>
