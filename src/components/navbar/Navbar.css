@@ -10,8 +10,8 @@ body{
 }
 
 .mine{
-    /* max-width: 350px;
-    max-height: 85px; */
+    max-width: 350px;
+    max-height: 85px;
     padding: 24px 71px 14px;
     text-decoration: none;
     color: #fff;
@@ -86,8 +86,8 @@ color: #D1B06B;
 .contact div{
     display: flex;
     margin-left: 50px;
-    width: 271px;
-    height: 62px;
+    max-width: 271px;
+    max-height: 62px;
 }
 
 .contact div div{
@@ -111,4 +111,24 @@ letter-spacing: 0.4px;
 
 
 
+}
+
+@media (max-width:935px) {
+    .contact{
+        flex-direction: column;
+    }
+    .contact div{
+        margin-top: 30px;
+    }
+    
+}
+
+@media (max-width:996px) {
+    .mine{
+        margin: 40px 0;
+    }
+
+    .App{
+        padding: 0;
+    }
 }

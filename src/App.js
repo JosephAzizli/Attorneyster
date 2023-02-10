@@ -9,7 +9,7 @@ import Parker from './components/parker/Parker';
 function App() {
   return (
     <div className="App">
-      <Laws/>
+      <Navbar/>
     </div>
   );
 }

@@ -1,16 +1,17 @@
+
 [
    {
     "id":1,
     "title": "Business Law",
     "body": "Be aware of new developments, as laws and rules often change based on the situation.",
-    "image": ""
+    "image": "./icons/business.svg"
    } 
    ,
    {
     "id":2,
     "title": "Construction Law",
     "body": "Never judge, just listen and advise. Even if your client has made a bad decision in the case.",
-    "image": ""
+    "image": "./icons/building.svg"
    } 
    ,
    {

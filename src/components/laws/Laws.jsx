@@ -16,12 +16,13 @@ import { Pagination, Autoplay } from "swiper";
 const Laws = () => {
   return (
     <div className='laws'>
-        <div className="explore">
-            <div className='left'>
-            <h1>Explore The perfect <br/> Our Practice Areas</h1>
+        <div className="explore row">
+            <div className='left col-12 col-md-3 col-lg-5'>
+            <h1>Explore The perfect</h1>
+             <h1>Our Practice Areas</h1> 
             <img src={pattern} alt="" />
             </div>
-            <p>We are a group of civil litigation/trial attorneys who focus on providing a justice based on the issues relating to insurance defense, insurance coverage, bad faith, insurance fraud and criminal litigation.</p>
+            <p className='col-12 col-md-9 col-lg-7'>We are a group of civil litigation/trial attorneys who focus on providing a justice based on the issues relating to insurance defense, insurance coverage, bad faith, insurance fraud and criminal litigation.</p>
         </div>
         <div className="cards-section row">
         <Swiper
@@ -56,6 +57,7 @@ const Laws = () => {
               <LawCard
                 title={card.title}
                 body={card.body}
+                image={card.image}
               />
             </SwiperSlide>
           ))}

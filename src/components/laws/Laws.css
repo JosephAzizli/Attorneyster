@@ -1,0 +1,43 @@
+.laws{
+    padding: 130px 0;
+}
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    flex-direction: column;
+}
+
+.left h1{
+    font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 58px;
+letter-spacing: 0.4px;
+text-transform: capitalize;
+
+color: #FFF;
+
+}
+
+.explore p{
+    width: 660px;
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+letter-spacing: 0.4px;
+
+color: #D7D7D7;
+}
+
+.cards-section{
+    margin-top: 60px;
+}

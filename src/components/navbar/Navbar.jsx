@@ -10,18 +10,18 @@ const Navbar = () => {
     <div className="container">
       <div className="row">
         <div className="col-12 col-md-6 col-lg-12">
-          <div className="logo">
-            <a href=""><img src={logo} alt="" /></a>
-            <a href="#" className='mine'><p>Book a consultation</p> </a>
+          <div className="logo row">
+            <a className='col-12 col-md-5' href=""><img src={logo} alt="" /></a>
+            <a href="#" className='col-12 col-md-8 mine'><p>Book a consultation</p> </a>
           </div>
-          <nav>
-          <div className="nav-links">
+          <nav className='row'>
+          <div className="nav-links col-12 col-md-12 col-lg-6">
             <a href="">Home</a>
             <a href="">About Us</a>
             <a href="">Pages</a>
             <a href="">Contact Us</a>
           </div>
-          <div className="contact">
+          <div className="contact col-12 col-md-10 col-lg-6">
             <div>
             <img src={phone} alt="" />
             <div>
