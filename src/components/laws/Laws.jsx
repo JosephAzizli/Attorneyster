@@ -40,7 +40,7 @@ const Laws = () => {
               slidesPerView: 2,
               spaceBetween: 20,
             },
-            1510: {
+            1410: {
               slidesPerView: 3,
               spaceBetween: 30,
             },

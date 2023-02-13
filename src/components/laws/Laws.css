@@ -41,3 +41,11 @@ color: #D7D7D7;
 .cards-section{
     margin-top: 60px;
 }
+
+
+@media (max-width:987px){
+    .laws{
+        padding: 40px;
+    }
+    
+}

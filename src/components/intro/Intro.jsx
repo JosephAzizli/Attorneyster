@@ -15,7 +15,7 @@ const Intro = () => {
             Get In Touch
         </a></div>
         </div>
-        <div className="col-12 col-md-6 right-side">
+        <div className="col-12 col-md-5 right-side">
             <img src={lawyer} alt="" />
         </div>
     </div>

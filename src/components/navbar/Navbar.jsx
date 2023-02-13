@@ -12,25 +12,39 @@ const Navbar = () => {
         <div className="col-12 col-md-6 col-lg-12">
           <div className="logo row">
             <a className='col-12 col-md-5' href=""><img src={logo} alt="" /></a>
-            <a href="#" className='col-12 col-md-8 mine'><p>Book a consultation</p> </a>
+            <a href="#" className='col-12 col-md-8 glass mine'><p>Book a consultation</p> </a>
           </div>
-          <nav className='row'>
-          <div className="nav-links col-12 col-md-12 col-lg-6">
-            <a href="">Home</a>
-            <a href="">About Us</a>
-            <a href="">Pages</a>
-            <a href="">Contact Us</a>
-          </div>
+          <nav className='row top-nav'>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="">Home</a></li>
+      <li><a href="">About Us</a></li>
+      <li><a href="">Pages</a></li>
+      <li><a href="">Contact Us</a></li>
+    </ul>
           <div className="contact col-12 col-md-10 col-lg-6">
             <div>
-            <img src={phone} alt="" />
+            <a href="" className='glass'>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            <img src={phone} alt="" /></a>
             <div>
               <p>Call Us On:</p>
               <a href="">911-987654321</a>
             </div>
             </div>
             <div>
-            <img src={mail} alt="" />
+            <a href="" className='glass'>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            <img src={mail} alt="" /></a>
             <div>
               <p>Email Us On:</p>
               <a href="">yourmail@mail.com</a>
