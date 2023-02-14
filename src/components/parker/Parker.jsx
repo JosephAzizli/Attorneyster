@@ -11,7 +11,7 @@ const Parker = () => {
   return (
     <div className='parker'>
         <div className='row'>
-            <div className='col-12 col-md-4'><img src={statue} className='statue' alt="statue" /></div>
+            <div className='col-12 col-md-5'><img src={statue} className='statue' alt="statue" /></div>
             <div className="text col-12 col-md-7">
                 <h1>Welcome to Attorney Law - Lawyer & Law Firm Company</h1>
                 <img src={pattern} alt="" />
@@ -19,21 +19,21 @@ const Parker = () => {
             </div>
         </div>
         <div className='row'>
-            <div className='col-12 col-md-4'><img src={hammer} className='hammer' alt="" /></div>
+            <div className='col-12 col-md-5'><img src={hammer} className='hammer' alt="" /></div>
             <div className='peter col-12 col-md-7'>
             <div>
                 <img src={peter} alt="" />
                 <h1>Peter Parker</h1>
             </div>
             <div className="badges">
-            <div className="success">
+            <div className="success col-12 col-md-6">
                 <img src={notebook} alt="" />
                 <div>
                 <p>95%</p>
                 <p>Case Success</p>
                 </div>
             </div>
-            <div className="exp">
+            <div className=" col-12 col-md-6 exp">
                 <img src={exp} alt="" />
                 <div>
                 <p>Years</p>

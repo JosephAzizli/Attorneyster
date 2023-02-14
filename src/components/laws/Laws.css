@@ -40,6 +40,7 @@ color: #D7D7D7;
 
 .cards-section{
     margin-top: 60px;
+    display: flex;
 }
 
 
@@ -49,3 +50,27 @@ color: #D7D7D7;
     }
     
 }
+
+.main-law {
+    display: flex;
+
+}
+
+.card{
+    width: 410px;
+    height: 400px;
+}
+
+
+.card-main{
+    flex-direction: column;
+    
+}
+
+.card-top , .card-bottom {
+    margin: 20px 20px;
+}
+
+/* .card-top{
+    display: flex;
+} */

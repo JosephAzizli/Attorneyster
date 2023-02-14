@@ -64,10 +64,15 @@ letter-spacing: 0.4px;
 
 } */
 
+:is(.phone, .mail) a{
+  width:62px;
+  height:62px;
+}
 
-.contact{
+.contact {
     display: flex;
     padding: 32.5px 0;
+    justify-content: center;
 }
 
 
@@ -106,35 +111,13 @@ color: #D1B06B;
     font-family: 'Outfit';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.4px;
 
 
 
 }
-
-@media (max-width:935px) {
-    .contact{
-        flex-direction: column;
-    }
-    .contact div{
-        margin-top: 30px;
-    }
-    
-}
-
-@media (max-width:996px) {
-    .mine{
-        margin: 40px 0;
-        justify-self: center;
-    }
-
-    .App{
-        padding: 0;
-    }
-}
-
 
 .top-nav {
     display: flex;
