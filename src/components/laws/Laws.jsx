@@ -1,13 +1,13 @@
 import React from "react";
 import "./Laws.css";
-import LawCard from "./LawCard";
 
 import pattern from "./pattern.svg";
-
-import "swiper/css";
-import "swiper/css/pagination";
-
-import { Pagination, Autoplay } from "swiper";
+import business from "./icons/business.svg"
+import building from "./icons/building.svg"
+import car from "./icons/car.svg"
+import death from "./icons/death.svg"
+import criminal from "./icons/criminal.svg"
+import family from "./icons/family.svg"
 
 const Laws = () => {
   return (
@@ -26,79 +26,116 @@ const Laws = () => {
         </p>
       </div>
       <div className="cards-section row">
-        <d className="d-flex card-main">
+        <div className="d-flex card-main">
           <div className="card-top row gy-5 ">
-            <div className="col-md-4 col-12">
+            <div className="col-md-7 col-12 col-lg-4">
               <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
+                 
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Business Law</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  Be aware of new developments, as laws and rules often change based on the situation.
                   </p>
-                  <a href="#" class="btn btn-primary">
-                    Go somewhere
+                  <div>
+                  <img src={business} alt="" />
+                  <a href="#" class="btn">
+                    View more
                   </a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
+            <div className="col-md-7 col-12 col-lg-4">
               <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
+                 
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Construction Law</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  Never judge, just listen and advise. Even if your client has made a bad decision in the case.
                   </p>
-                  <a href="#" class="btn btn-primary">
-                    Go somewhere
+                  <div>
+                  <img src={building} alt="" />
+                  <a href="#" class="btn">
+                    View more
                   </a>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-12">
+            <div className="col-md-7 col-12 col-lg-4">
               <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
+                 
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Car Accident</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  Being untruthful will get you nowhere and give you a reputation of the dishonesty in law.
                   </p>
-                  <a href="#" class="btn btn-primary">
-                    Go somewhere
+                  <div>
+                  <img src={car} alt="" />
+                  <a href="#" class="btn">
+                    View more
                   </a>
+                  </div>
                 </div>
               </div>
             </div>
             
           </div>
-          <div className="card-bottom">
-          <div className="col-md-4 col-12">
+          <div className="card-top row gy-5 ">
+            <div className="col-md-7 col-12 col-lg-4">
               <div class="card">
-                <img src="..." class="card-img-top" alt="..." />
+                 
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Wrongful Death</h5>
                   <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  Keep yourself up-to-date on your area of law. Be aware of new justice, as laws and rules.
                   </p>
-                  <a href="#" class="btn btn-primary">
-                    Go somewhere
+                  <div>
+                  <img src={death} alt="" />
+                  <a href="#" class="btn">
+                    View more
                   </a>
+                  </div>
                 </div>
               </div>
             </div>
+            <div className="col-md-7 col-12 col-lg-4">
+              <div class="card">
+                 
+                <div class="card-body">
+                  <h5 class="card-title">Criminal Law</h5>
+                  <p class="card-text">
+                  Our attorneys are fully committed to providing you with the support and attention that you deserve.
+                  </p>
+                  <div>
+                  <img src={criminal} alt="" />
+                  <a href="#" class="btn">
+                    View more
+                  </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-7 col-12 col-lg-4">
+              <div class="card">
+                 
+                <div class="card-body">
+                  <h5 class="card-title">Family Law</h5>
+                  <p class="card-text">
+                  You may find yourself unable to work or complete work-related responsibilities safely.
+                  </p>
+                  <div>
+                  <img src={family} alt="" />
+                  <a href="#" class="btn">
+                    View more
+                  </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
           </div>
-
-          {/* {
-            cardInfo.map(card => (
-              <LawCard title = {card.title} body = {card.body} image = {card.image} />
-            ))
-          } */}
-        </d>
+        </div>
       </div>
     </div>
   );

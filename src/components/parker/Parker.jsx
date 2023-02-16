@@ -26,25 +26,17 @@ const Parker = () => {
                 <h1>Peter Parker</h1>
             </div>
             <div className="badges">
-            <div className="success col-12 col-md-6">
+            <div className="success">
                 <img src={notebook} alt="" />
-                <div>
-                <p>95%</p>
-                <p>Case Success</p>
-                </div>
             </div>
-            <div className=" col-12 col-md-6 exp">
+            <div className="exp">
                 <img src={exp} alt="" />
-                <div>
-                <p>Years</p>
-                <p>Experience</p>
-                </div>
+            </div>
             </div>
             </div>
             </div>
         </div>
 
-    </div>
   )
 }
 

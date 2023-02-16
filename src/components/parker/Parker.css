@@ -1,134 +1,126 @@
-.parker{
-    display: flex;
-    flex-direction: column;
-    padding: 140px 0;
+.parker {
+  display: flex;
+  flex-direction: column;
+  padding: 140px 0;
 }
 
-.parker div{
-    display: flex;
-    margin-bottom: 30px;
+.parker div {
+  display: flex;
+  margin-bottom: 30px;
 }
 
-.statue, .hammer{
-    max-height: 294px;
+.statue,
+.hammer {
+  max-height: 294px;
+}
+
+.text img {
+  max-height: 44px;
+  max-width: 95px;
+}
+
+.text p {
+  margin-top: 42px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+
+  letter-spacing: 0.4px;
+
+  color: #d7d7d7;
+}
+
+.text h1 {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+
+  color: #fff;
+}
+.peter,
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.peter div {
+  margin-bottom: 45px;
+}
+
+.peter div img {
+  max-height: 90px;
+}
+
+.peter div h1 {
+  align-self: center;
+  margin-left: 20px;
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  /* identical to box height, or 130% */
+
+  letter-spacing: 0.4px;
+
+  color: #fff;
 }
 
 
-.text img{
-    max-height: 44px;
-    max-width: 95px;
+
+.badges img{
+    margin-right: 30px;
 }
 
-.text p{
-    margin-top: 42px;
-    font-family: 'Outfit';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 32px;
-/* or 160% */
+/* :is(.success, .exp) div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 21px;
+}
+.success {
+  max-width: 315px;
+  max-height: 126px;
+  background: #3b434e;
+  padding: 30px 50px;
+}
+.success p {
+  margin-top: -4px;
+  justify-self: center;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: 0.4px;
 
-letter-spacing: 0.4px;
-
-color: #D7D7D7;
-
+  color: #d7d7d7;
 }
 
-.text h1{
-    font-family: 'Cormorant Garamond';
-font-style: normal;
-font-weight: 400;
-font-size: 45px;
-line-height: 58px;
-/* identical to box height, or 130% */
-
-letter-spacing: 0.4px;
-text-transform: capitalize;
-
-color: #FFF;
-
-}
-.peter, .text{
-    display: flex;
-    flex-direction: column;
-    
+.exp {
+  max-width: 315px;
+  max-height: 126px;
+  background: #d1b06b;
+  padding: 33px 50px;
 }
 
-.peter div{
-    margin-bottom: 45px;
+.exp {
+  margin-left: 30px;
 }
+.exp p {
+  margin-top: -4px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  letter-spacing: 0.4px;
 
-.peter div img{
-    max-height: 90px;
-}
-
-.peter div h1{
-    align-self: center;
-    margin-left: 20px;
-    font-family: 'Cormorant Garamond';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 52px;
-/* identical to box height, or 130% */
-
-letter-spacing: 0.4px;
-
-color: #FFF;
-}
-
-.badges{
-    display: flex;
-}
-
-:is(.success, .exp) div{
-    display: flex;
-    flex-direction: column;
-    margin-left: 21px;
-}
-.success{
-    max-width: 315px;
-    max-height: 126px;
-    background: #3B434E;
-    padding: 30px 50px;
-}
-.success p{
-    margin-top: -4px;
-    justify-self: center;
-    font-family: 'Outfit';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 29px;
-/* identical to box height, or 130% */
-
-letter-spacing: 0.4px;
-
-color: #D7D7D7;
-
-}
-
-.exp{
-    max-width: 315px;
-    max-height: 126px;
-    background: #D1B06B;
-    padding: 33px 50px;
-}
-
-.exp{
-    margin-left: 30px;
-}
-.exp p{
-    margin-top: -4px;
-    font-family: 'Outfit';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 29px;
-/* identical to box height, or 130% */
-
-letter-spacing: 0.4px;
-
-color: #1F2732;
-
-}
+  color: #1f2732;
+} */

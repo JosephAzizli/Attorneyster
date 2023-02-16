@@ -59,6 +59,7 @@ color: #D7D7D7;
 .card{
     width: 410px;
     height: 400px;
+    background: #1F2732;
 }
 
 
@@ -74,3 +75,59 @@ color: #D7D7D7;
 /* .card-top{
     display: flex;
 } */
+
+.btn{
+    background: #161D27;
+    padding: 13px 42px;
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.4px;
+text-transform: capitalize;
+
+color: #FFF;
+
+}
+
+.card-text{
+    width: 326px;
+    margin: 8px 0 55px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #4E555F;;
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+
+letter-spacing: 0.4px;
+
+color: #D7D7D7;
+}
+
+.card-title{
+    font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 56px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.4px;
+
+color: #FFF;
+}
+
+.card-body {
+    padding: 55px 54px 70px 50px;
+}
+
+.card-body div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
