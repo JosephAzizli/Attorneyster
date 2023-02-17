@@ -56,14 +56,30 @@ border: 1px solid #D1B06B;
 
 }
 
-.right-side{
-    padding-top: 19px;
+.lawyer{
+    max-width: 672px;
 }
 
+/* .right-side img{
+    max-width: 672px;
+    max-height: 708px;
+}
+.right-side{
+    margin-top: 19px;
+} */
+
 @media (max-width: 768px) {
-    .right-side {
+    .lawyer {
         display: none;
 
     }
     
+}
+
+@media (max-width:1417px) {
+    .Introduction{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 30px;
+    }
 }

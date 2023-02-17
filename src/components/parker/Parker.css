@@ -9,8 +9,8 @@
   margin-bottom: 30px;
 }
 
-.statue,
-.hammer {
+.statue, .hammer {
+  max-width: 467px;
   max-height: 294px;
 }
 

@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
 import "./App.css";
+import Cases from "./components/cases/Cases";
 import Form from "./components/form/Form";
 import Intro from "./components/intro/Intro";
 import Laws from "./components/laws/Laws";
@@ -14,6 +15,7 @@ function App() {
       <Intro />
       <Parker />
       <Laws />
+      <Cases/>
     </div>
   );
 }

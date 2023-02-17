@@ -12,6 +12,8 @@
 }
 
 .left h1{
+    display: flex;
+    max-width: 365px;
     font-family: 'Cormorant Garamond';
 font-style: normal;
 font-weight: 400;
@@ -41,35 +43,41 @@ color: #D7D7D7;
 .cards-section{
     margin-top: 60px;
     display: flex;
+    
 }
 
-
+/* 
 @media (max-width:987px){
     .laws{
         padding: 40px;
     }
     
-}
+} */
 
-.main-law {
+/* .main-law {
     display: flex;
 
+} */
+.col-lg-4{
+    padding: 0;
 }
-
 .card{
     width: 410px;
     height: 400px;
-    background: #1F2732;
+    background: #1F2732 !important;
+    /* display: inline !important; */
 }
 
 
 .card-main{
     flex-direction: column;
-    
+    padding: 0;
+    margin: 0;
 }
 
 .card-top , .card-bottom {
-    margin: 20px 20px;
+    margin-top: 10px;
+    padding: 0;
 }
 
 /* .card-top{
@@ -92,7 +100,9 @@ text-transform: capitalize;
 color: #FFF;
 
 }
-
+.btn:hover{
+    color: #fff;
+}
 .card-text{
     width: 326px;
     margin: 8px 0 55px;
@@ -123,6 +133,8 @@ color: #FFF;
 }
 
 .card-body {
+    display: inline !important;
+    background: #1F2732;
     padding: 55px 54px 70px 50px;
 }
 

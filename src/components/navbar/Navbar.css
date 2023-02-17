@@ -333,3 +333,9 @@ letter-spacing: 0.4px;
 	height: 100%;
 	transform: translateY(-100%);
 }
+
+@media (max-width:990px) {
+    .mine{
+      margin: 20px 0 20px 40px;
+    }
+}

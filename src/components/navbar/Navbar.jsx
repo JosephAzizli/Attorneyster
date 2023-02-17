@@ -7,14 +7,14 @@ import mail from "./mail.svg"
 
 const Navbar = () => {
   return (
-    <div className="container">
+    <div className="container" >
       <div className="row">
         <div className="col-12 col-md-6 col-lg-12">
           <div className="logo row">
-            <a className='col-12 col-md-5' href=""><img src={logo} alt="" /></a>
-            <a href="#" className='col-12 col-md-8 glass mine'><p>Book a consultation</p> </a>
+            <a className='col-12 col-md-6 col-lg-5' href=""><img src={logo} alt="" /></a>
+            <a href="#" className='col-12 col-md-9 col-lg-7 glass mine'><p>Book a consultation</p> </a>
           </div>
-          <nav>
+          <nav className='row'>
             <div className="nav-links col-12 col-md-6 col-lg-5">
               <ul className='menu'>
                 <li><a href="">Home</a></li>

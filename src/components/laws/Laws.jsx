@@ -14,8 +14,7 @@ const Laws = () => {
     <div className="laws">
       <div className="explore row">
         <div className="left col-12 col-md-3 col-lg-5">
-          <h1>Explore The perfect</h1>
-          <h1>Our Practice Areas</h1>
+          <h1>Explore The perfect <br /> Our Practice Areas</h1>
           <img src={pattern} alt="" />
         </div>
         <p className="col-12 col-md-9 col-lg-7">
@@ -28,7 +27,7 @@ const Laws = () => {
       <div className="cards-section row">
         <div className="d-flex card-main">
           <div className="card-top row gy-5 ">
-            <div className="col-md-7 col-12 col-lg-4">
+            <div className="col-md-6 col-12 col-lg-4">
               <div class="card">
                  
                 <div class="card-body">
@@ -38,14 +37,14 @@ const Laws = () => {
                   </p>
                   <div>
                   <img src={business} alt="" />
-                  <a href="#" class="btn">
+                  <a href="#" className="glass btn">
                     View more
                   </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-7 col-12 col-lg-4">
+            <div className="col-md-6 col-12 col-lg-4">
               <div class="card">
                  
                 <div class="card-body">
@@ -55,14 +54,14 @@ const Laws = () => {
                   </p>
                   <div>
                   <img src={building} alt="" />
-                  <a href="#" class="btn">
+                  <a href="#" className="glass btn">
                     View more
                   </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-7 col-12 col-lg-4">
+            <div className="col-md-6 col-12 col-lg-4">
               <div class="card">
                  
                 <div class="card-body">
@@ -72,7 +71,7 @@ const Laws = () => {
                   </p>
                   <div>
                   <img src={car} alt="" />
-                  <a href="#" class="btn">
+                  <a href="#" className="glass btn">
                     View more
                   </a>
                   </div>
@@ -82,7 +81,7 @@ const Laws = () => {
             
           </div>
           <div className="card-top row gy-5 ">
-            <div className="col-md-7 col-12 col-lg-4">
+            <div className="col-md-6 col-12 col-lg-4">
               <div class="card">
                  
                 <div class="card-body">
@@ -92,14 +91,14 @@ const Laws = () => {
                   </p>
                   <div>
                   <img src={death} alt="" />
-                  <a href="#" class="btn">
+                  <a href="#" className="glass btn">
                     View more
                   </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-7 col-12 col-lg-4">
+            <div className="col-md-6 col-12 col-lg-4">
               <div class="card">
                  
                 <div class="card-body">
@@ -109,14 +108,14 @@ const Laws = () => {
                   </p>
                   <div>
                   <img src={criminal} alt="" />
-                  <a href="#" class="btn">
+                  <a className="glass btn" href="#">
                     View more
                   </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-7 col-12 col-lg-4">
+            <div className="col-md-6 col-12 col-lg-4">
               <div class="card">
                  
                 <div class="card-body">
@@ -126,7 +125,7 @@ const Laws = () => {
                   </p>
                   <div>
                   <img src={family} alt="" />
-                  <a href="#" class="btn">
+                  <a href="#" className="glass btn">
                     View more
                   </a>
                   </div>
