@@ -1,7 +1,7 @@
 .parker {
   display: flex;
   flex-direction: column;
-  padding: 140px 0;
+  padding: 140px 0 0;
 }
 
 .parker div {
@@ -9,7 +9,8 @@
   margin-bottom: 30px;
 }
 
-.statue, .hammer {
+.statue,
+.hammer {
   max-width: 467px;
   max-height: 294px;
 }
@@ -73,10 +74,8 @@
   color: #fff;
 }
 
-
-
-.badges img{
-    margin-right: 30px;
+.badges img {
+  margin-right: 30px;
 }
 
 /* :is(.success, .exp) div {

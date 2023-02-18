@@ -3,6 +3,7 @@ import "bootstrap/dist/js/bootstrap";
 import "./App.css";
 import Cases from "./components/cases/Cases";
 import Form from "./components/form/Form";
+import History from "./components/history/History";
 import Intro from "./components/intro/Intro";
 import Laws from "./components/laws/Laws";
 import Navbar from "./components/navbar/Navbar";
@@ -16,6 +17,7 @@ function App() {
       <Parker />
       <Laws />
       <Cases/>
+      <History/>
     </div>
   );
 }

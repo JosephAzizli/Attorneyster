@@ -1,49 +1,47 @@
-.laws{
-    padding: 130px 0;
+.laws {
+  padding-bottom: 130px;
 }
-.explore{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.left{
-    flex-direction: column;
+.explore {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.left h1{
-    display: flex;
-    max-width: 365px;
-    font-family: 'Cormorant Garamond';
-font-style: normal;
-font-weight: 400;
-font-size: 45px;
-line-height: 58px;
-letter-spacing: 0.4px;
-text-transform: capitalize;
-
-color: #FFF;
-
+.txt-section {
+  flex-direction: column;
 }
 
-.explore p{
-    width: 660px;
-    font-family: 'Outfit';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 32px;
-/* or 160% */
+.txt-section h1 {
+  display: flex;
+  max-width: 365px;
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58px;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
 
-letter-spacing: 0.4px;
-
-color: #D7D7D7;
+  color: #fff;
 }
 
-.cards-section{
-    margin-top: 60px;
-    display: flex;
-    
+.explore p {
+  width: 660px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+
+  letter-spacing: 0.4px;
+
+  color: #d7d7d7;
+}
+
+.cards-section {
+  margin-top: 60px;
+  display: flex;
 }
 
 /* 
@@ -58,88 +56,95 @@ color: #D7D7D7;
     display: flex;
 
 } */
-.col-lg-4{
-    padding: 0;
-}
-.card{
-    width: 410px;
-    height: 400px;
-    background: #1F2732 !important;
-    /* display: inline !important; */
+.card {
+  max-width: 430px;
+  height: 429px !important;
+  background: #1f2732 !important;
+  /* display: inline !important; */
 }
 
-
-.card-main{
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
+.card-main {
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
 }
 
-.card-top , .card-bottom {
-    margin-top: 10px;
-    padding: 0;
+.card-top,
+.card-bottom {
+  margin-top: 10px;
+  padding: 0;
+  justify-content: space-around;
 }
 
 /* .card-top{
     display: flex;
 } */
 
-.btn{
-    background: #161D27;
-    padding: 13px 42px;
-    font-family: 'Outfit';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 32px;
-/* identical to box height, or 160% */
+.btn {
+  background: #161d27;
+  padding: 13px 42px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
 
-letter-spacing: 0.4px;
-text-transform: capitalize;
-
-color: #FFF;
-
+  color: #fff;
 }
-.btn:hover{
-    color: #fff;
+.btn:hover {
+  color: #fff;
 }
-.card-text{
-    width: 326px;
-    margin: 8px 0 55px;
-    padding-bottom: 28px;
-    border-bottom: 1px solid #4E555F;;
-    font-family: 'Outfit';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 32px;
+.card-text {
+  margin: 8px 0 55px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #4e555f;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
 
-letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
 
-color: #D7D7D7;
+  color: #d7d7d7;
 }
 
-.card-title{
-    font-family: 'Cormorant Garamond';
-font-style: normal;
-font-weight: 400;
-font-size: 35px;
-line-height: 56px;
-/* identical to box height, or 160% */
+.card-title {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 56px;
+  letter-spacing: 0.4px;
 
-letter-spacing: 0.4px;
-
-color: #FFF;
+  color: #fff;
 }
 
 .card-body {
-    display: inline !important;
-    background: #1F2732;
-    padding: 55px 54px 70px 50px;
+  /* display: inline !important; */
+  background: #1f2732;
+  padding: 55px 54px 70px 50px;
 }
 
-.card-body div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.card-body div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1185px) {
+  .card-title {
+    font-size: 30px;
+  }
+  .card-text {
+    font-size: 16px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .card-body {
+    padding: 50px 49px 65px 45px;
+  }
 }
