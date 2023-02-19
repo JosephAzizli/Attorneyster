@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 //CSS
 import "./Intro.css";
+
 
 //IMAGES
 import pattern from "./images/pattern.svg";
@@ -18,9 +20,9 @@ const Intro = () => {
           against the largest offshore companies and win.
         </p>
         <div>
-          <a className="glass" href="">
+          <Link className="glass" to="/form">
             Get In Touch
-          </a>
+          </Link>
         </div>
       </div>
       <img className="lawyer col-12 col-md-7 col-lg-6" src={lawyer} alt="" />

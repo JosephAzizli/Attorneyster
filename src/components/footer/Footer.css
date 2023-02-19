@@ -1,0 +1,106 @@
+.ftr_img {
+  width: 100vw;
+}
+
+.ftr_img img {
+  width: 100%;
+}
+
+.footer_logo {
+  width: 100vw;
+  margin: 131px 0 56px;
+}
+
+.footer_logo img {
+  width: 33%;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.footer_links div {
+  width: 323px;
+}
+.footer_links h2 {
+  margin-bottom: 39px;
+  padding: 21px 0;
+  border-bottom: 1px solid #3b434e;
+  border-top: 1px solid #3b434e;
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: 0.4px;
+
+  color: #ffffff;
+}
+
+.footer_links ul {
+  padding: 0;
+}
+
+.footer_links ul li {
+  list-style: none;
+}
+
+.footer_links ul li a {
+  text-decoration: none;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+
+  color: #d7d7d7;
+}
+
+.footer_links ul li span {
+  color: #d1b06b;
+}
+
+.quick {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright span {
+  color: #d1b06b;
+}
+
+.copyright p a {
+  text-decoration: none;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 40px 25px;
+  border-bottom: 1px solid #3b434e;
+  border-top: 1px solid #3b434e;
+  margin: 85px 0 110px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  width: 223px;
+}
+
+.social-links p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+
+  color: #d1b06b;
+
+  margin-right: 20px;
+}

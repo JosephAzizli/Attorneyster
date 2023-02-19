@@ -1,10 +1,14 @@
 import React from "react";
 
+//CSS
 import "./History.css";
 
-import pattern from './pattern.svg'
-import themis from './themis.svg'
 
+//IMAGES
+import pattern from './images/pattern.svg'
+import themis from './images/themis.svg'
+
+//ANT DESIGN PROGRESS BAR 
 import { Progress } from "antd";
 
 const History = () => {
@@ -101,6 +105,7 @@ const History = () => {
               />
             </div>
           </div>
+          <a href="#" className="glass">Free Consulting</a>
         </div>
       </div>
     </div>

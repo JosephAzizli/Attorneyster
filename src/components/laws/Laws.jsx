@@ -3,6 +3,8 @@ import React from "react";
 //CSS
 import "./Laws.css";
 
+import { motion } from "framer-motion";
+
 //IMAGES
 import pattern from "./pattern.svg";
 import business from "./icons/business.svg";
@@ -33,7 +35,13 @@ const Laws = () => {
         <div className="d-flex card-main">
           <div className="card-top row gy-5 ">
             <div className="col-md-6 col-12 col-lg-4">
-              <div class="card">
+              <motion.div 
+              className="card"
+              whileHover={{
+                scale: 1.1
+                }}
+                
+                >
                 <div class="card-body">
                   <h5 class="card-title">Business Law</h5>
                   <p class="card-text">
@@ -47,10 +55,11 @@ const Laws = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
             <div className="col-md-6 col-12 col-lg-4">
-              <div class="card">
+              <motion.div class="card"
+              whileHover={{scale:1.1}}>
                 <div class="card-body">
                   <h5 class="card-title">Construction Law</h5>
                   <p class="card-text">
@@ -64,10 +73,11 @@ const Laws = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
             <div className="col-md-6 col-12 col-lg-4">
-              <div class="card">
+              <motion.div class="card"
+              whileHover={{scale:1.1}}>
                 <div class="card-body">
                   <h5 class="card-title">Car Accident</h5>
                   <p class="card-text">
@@ -81,12 +91,13 @@ const Laws = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
           <div className="card-bottom row gy-5 ">
             <div className="col-md-6 col-12 col-lg-4">
-              <div class="card">
+              <motion.div class="card"
+              whileHover={{scale:1.1}}>
                 <div class="card-body">
                   <h5 class="card-title">Wrongful Death</h5>
                   <p class="card-text">
@@ -100,10 +111,11 @@ const Laws = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
             <div className="col-md-6 col-12 col-lg-4">
-              <div class="card">
+              <motion.div class="card"
+              whileHover={{scale:1.1}}>
                 <div class="card-body">
                   <h5 class="card-title">Criminal Law</h5>
                   <p class="card-text">
@@ -117,10 +129,11 @@ const Laws = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
             <div className="col-md-6 col-12 col-lg-4">
-              <div class="card">
+              <motion.div class="card"
+              whileHover={{scale:1.1}}>
                 <div class="card-body">
                   <h5 class="card-title">Family Law</h5>
                   <p class="card-text">
@@ -134,7 +147,7 @@ const Laws = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>

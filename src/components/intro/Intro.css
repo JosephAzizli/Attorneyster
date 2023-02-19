@@ -2,6 +2,7 @@
 .Introduction {
   display: flex;
   background-color: #161d27;
+  padding: 0 40px;
   /* padding-top: 300px; */
   /* overflow-x: hidden; */
 }
@@ -72,7 +73,11 @@
     display: none;
   }
 }
-
+@media (max-width:480px) {
+    .left-side h1{
+      font-size: 45px;
+    }
+}
 @media (max-width: 1417px) {
   .Introduction {
     flex-direction: column-reverse;

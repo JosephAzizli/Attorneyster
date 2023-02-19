@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,
+        "image":"https://res.cloudinary.com/dg9gujywv/image/upload/v1676712565/IMAGE_ouxmgy.png",
+        "name":"Natasha",
+        "job":"Private Employee",
+        "comment":"Could you please thank Paul personally for me, the stars are for his forehead. The perfect way of handling the case based on the situation."
+    } 
+    ,
+    {
+        "id":2,
+        "image":"https://res.cloudinary.com/dg9gujywv/image/upload/v1676712565/IMAGE-1_pgumqz.png",
+        "name":"Hannah Butler",
+        "job":"Business Sector",
+        "comment":"Attorney law firm really helped me with all my family law and custody issues at the right time. Words are not enough to thank the firm."
+    } 
+    ,
+    {
+        "id":3,
+        "image":"https://res.cloudinary.com/dg9gujywv/image/upload/v1676712565/IMAGE-2_vubbhx.png",
+        "name":"Phillip Arnold",
+        "job":"Bus Driver",
+        "comment":"Thank you for the way in which your team handling the matter on a perfect way. They give me a big relief in this case with more confident."
+    } 
+    ,
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dg9gujywv/image/upload/v1676712565/IMAGE-3_makbib.png",
+        "name":"Joshua Warren",
+        "job":"Private Engineer",
+        "comment":"I frequently check the Best Lawyers list to select an attorney in areas too familiar with at the end they came and lead to achive the justice."
+    }
+]

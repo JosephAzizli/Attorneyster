@@ -2,10 +2,10 @@ body {
   background-color: #161d27;
   overflow-x: hidden;
 }
-.App {
-  padding: 0 40px;
-}
 
+*{
+  scroll-behavior: smooth;
+}
 a,
 p,
 h1,

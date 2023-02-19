@@ -1,0 +1,24 @@
+.opinion{
+    padding: 0 40px 212px;
+}
+.opinion h1 {
+  margin-top: 124px;
+  justify-content: center;
+  display: flex;
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.4px;
+
+  color: #ffffff;
+}
+
+.patter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}

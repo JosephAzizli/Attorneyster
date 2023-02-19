@@ -1,5 +1,6 @@
 .laws {
-  padding-bottom: 130px;
+  margin: 130px 0;
+  padding: 0 40px;
 }
 .explore {
   display: flex;
@@ -25,8 +26,16 @@
   color: #fff;
 }
 
+@media (max-width:770px) {
+    .txt-section h1{
+      font-size: 36px;
+    }
+    .explore p{
+      font-size: 16px;
+    }
+}
 .explore p {
-  width: 660px;
+  max-width: 660px;
   font-family: "Outfit";
   font-style: normal;
   font-weight: 400;

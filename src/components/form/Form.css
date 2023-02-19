@@ -1,44 +1,180 @@
-/* .form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.form{
+  padding: 140px 40px;
+  background-image: url("https://res.cloudinary.com/dg9gujywv/image/upload/v1676799454/IMAGE_y7amwe.png");
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1F2732;
+  padding: 89px 100px;
+}
+
+form div{
+
+  display: flex;
+  margin-bottom: 38px;
+  justify-self: flex-start;
+}
+
+.inputbox {
+  position: relative;
+  max-width: 556.8px;
+  min-width: 230px;
+  margin-right: 46px;
+}
+
+.inputbox input {
+  position: relative;
+  width: 100%;
+  padding: 20px 10px 10px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.inputbox span {
+  position: absolute;
+  left: 0;
+  padding: 20px 10px 10px;
+  font-size: 1em;
+  color: #8f8f8f;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.inputbox input:valid ~span,
+.inputbox input:focus ~span {
+  color: #D1B06B;
+  transform: translateX(-10px) translateY(-34px);
+  font-size: 0,75em;
+}
+
+.inputbox i {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+
+.inputbox input:valid ~i,
+.inputbox input:focus ~i {
+  height: 44px;
+}
+
+/* form button{
+  padding: 30px;
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 22px;
+
+letter-spacing: 0.4px;
+
+color: #3B434E;
+
+}
+
+form button:hover{
+  background-color: #8f8f8f;
+  transition: 1.5s;
 } */
 
-form {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* max-width: 600px; */
-    padding: 40px;
-    background: #1F2732;
+.button2 {
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 22px;
+
+letter-spacing: 0.4px;
+
+color: #3B434E;
+  display: inline-block;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  padding: 30px;
+  /* border-radius: 0.5em; */
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  /* box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff; */
+}
+
+.button2:active {
+  color: #666;
+  /* box-shadow: inset 4px 4px 12px #c5c5c5,
+             inset -4px -4px 12px #ffffff; */
+}
+
+.button2:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button2:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #D1B06B;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button2:hover {
+  color: #ffffff;
+  border: 1px solid #D1B06B;
+}
+
+.button2:hover:before {
+  top: -35%;
+  background-color: #D1B06B;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button2:hover:after {
+  top: -45%;
+  background-color: #D1B06B;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+
+
+@media (max-width:645px) {
+  form div{
+    flex-direction: column;
   }
-  input {
-    position: relative;
-    display: flex;
-    width: 100%;
-    /* padding: 5px 0; */
-    font-size: 25px;
-    color: #fff;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 1px solid #fff;
-    outline: none;
-    background: transparent;
-  }
-  label {
-    position: relative;
-    left: 0;
-    top: -70px;
-    /* padding: 5px 0; */
-    font-size: 25px;
-    color: #fff;
-    pointer-events: none;
-    transition: 0.5s;
-  }
-  input:focus ~ label, input:valid ~ label{
-    top: -85px;
-    left: 0;
-    color: #fff;
-    font-size: 12px;
-  }
+}

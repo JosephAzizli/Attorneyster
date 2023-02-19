@@ -1,0 +1,112 @@
+.team{
+    background: #fff;
+
+    padding: 124px 40px 131px;
+}
+
+.team h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 54px;
+text-align: center;
+letter-spacing: 0.4px;
+text-transform: capitalize;
+
+color: #161D27;
+
+}
+.team div{
+    display: flex;
+}
+
+.crew{
+    display: flex;
+    flex-direction: column;
+    width: 433px;
+    
+}
+.box{
+    position: relative;
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    background: rgb(132,140,140);
+    background: linear-gradient(0deg, rgba(132,140,140,1) 0%, rgba(215,215,213,1) 42%);
+}
+
+.box img{
+    position: absolute;
+    bottom: 0;
+    height: 90%;
+    transition: height 0.5s; 
+   
+}
+
+.box:hover img{
+    transition: ease-in-out 1.2s;
+    height: 620px;
+    background: none;
+}
+
+.crew h1{
+    margin-top: 20px;
+    font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 39px;
+text-align: center;
+letter-spacing: 0.4px;
+
+color: #161D27;
+
+}
+
+.crew p{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+letter-spacing: 0.4px;
+
+color: #D1B06B;
+
+}
+
+.box:hover .social{
+    visibility: visible;
+    transition: height ease-in-out 0.3s;
+}
+.social:hover{
+    height: 66px;
+}
+.social{
+    width: 217px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    padding: 20px 0;
+    visibility: hidden;
+    height: 0;
+    transition: height ease-in-out 0.3s;
+}
+
+.social a{
+    color: #161D27;
+}
+
+
+.personal{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}

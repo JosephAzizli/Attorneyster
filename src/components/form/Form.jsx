@@ -1,33 +1,43 @@
-import React from 'react'
+import React from "react";
 
-import './Form.css'
+import "./Form.css";
 const Form = () => {
   return (
-    <div className='form'>
-        <form action="#">
-            <div>
-                <input type="text" required />
-                <label>Full Name*</label>
-            </div>
-            <div>
-                <input type="text" required/>
-                <label>Email Adress*</label>
-            </div>
-            <div>
-                <input type="number" required/>
-                <label>Phone Number</label>
-            </div>
-            <div>
-                <input type="text" required/>
-                <label>Subject</label>
-            </div>
-            <div>
-                <input type="text" required/>
-                <label>Your Message</label>
-            </div>
-        </form>
+    <div className="form">
+      <form action="#">
+        <div>
+          <div class="inputbox">
+            <input required="required" type="text" />
+            <span>Full Name*</span>
+            <i></i>
+          </div>
+          <div class="inputbox">
+            <input required type="text" />
+            <span>Email Adress*</span>
+            <i></i>
+          </div>
+        </div>
+        <div>
+          <div class="inputbox">
+            <input required type="text" />
+            <span>Phone Number</span>
+            <i></i>
+          </div>
+          <div class="inputbox">
+            <input required type="text" />
+            <span>Subject</span>
+            <i></i>
+          </div>
+        </div>
+        <div class="inputbox">
+          <input required type="text" />
+          <span>Your Message</span>
+          <i></i>
+        </div>
+        <button className="button2">Get An Appointment</button>
+      </form>
     </div>
-  )
-}
+  );
+};
 
-export default Form
+export default Form;

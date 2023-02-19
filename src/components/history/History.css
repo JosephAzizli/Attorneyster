@@ -1,6 +1,6 @@
 .History{
     display: flex;
-    margin: 0 -40px;
+
     padding: 140px 40px;
     background-image: url(https://res.cloudinary.com/dg9gujywv/image/upload/v1676678845/IMAGE_wc2bve.png);
 }
@@ -10,6 +10,7 @@
     z-index: 2;
     padding: 90px 60px 70px ;
     display: flex;
+    justify-content: space-around;
 }
 
 .left h1{
@@ -88,18 +89,53 @@ color: #FFF;
     font-family: 'Outfit';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
+font-size: 16px;
 line-height: 32px;
 letter-spacing: 0.4px;
 
 color: #D7D7D7;
 }
 
+.right a{
+    padding: 25px 71px 24px;
+    justify-content: center;
+    display: flex;
+    width: 269px;
+    background: #d1b06b;
+    border: 1px solid #d1b06b;
+    text-decoration: none;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.4px;
+  
+    color: #1f2732;
+}
 .percent{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-top: 40px;
 }
+    
 .progressbar{
-    width: 383px;
+    max-width: 383px;
+}
+
+@media (max-width:1160px) {
+    .transparent{
+    padding: 90px 20px 70px;
+    }
+
+    .History h1{
+        font-size: 36px;
+    }
+}
+
+@media (max-width:770px) {
+    .History{
+        padding: 140px 5px;
+    }
 }

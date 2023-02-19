@@ -1,0 +1,131 @@
+.consultation{
+    display: flex;
+    padding: 0 40px 151px;
+}
+.spec{
+    font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 45px !important;
+line-height: 58px;
+
+letter-spacing: 0.4px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+
+.mytxt{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: 0.4px;
+
+color: #D7D7D7;
+
+}
+
+.external-frame{
+    background: #fff;
+    padding: 40px;
+    max-width: 630px;
+    min-height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0 0 102px;
+}
+.internal-frame{
+    border: 15px solid #D7D7D7;
+    width: 110%;
+    min-height: 410px;
+    padding: 45px 84px 0 75px;
+}
+.internal-frame h2{
+    font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 55px;
+
+letter-spacing: 0.4px;
+
+color: #1F2732;
+}
+
+.internal-frame p{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+
+letter-spacing: 0.4px;
+
+color: #909090;
+
+}
+
+.internal-frame div{
+    display: flex;
+}
+
+.internal-frame div div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.internal-frame div div p{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.4px;
+
+color: #1F2732;
+}
+
+.internal-frame div div a{
+    text-decoration: none;
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 42px;
+letter-spacing: 0.4px;
+
+color: #1F2732;
+
+} 
+
+
+@media (max-width:770px) {
+    .consultation{
+        padding: 0 10px 151px;
+    }
+    .external-frame{
+        margin: 30px 0;
+        padding: 20px;
+    }
+    .internal-frame{
+        padding-left: 20px;
+    }
+    .spec{
+        font-size: 36px !important;
+    }
+    .mytxt{
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 1417px) {
+    .consultation {
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-top: 30px;
+    }
+  }
