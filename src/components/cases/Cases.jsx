@@ -17,7 +17,9 @@ import img3 from "./images/casesserved.svg";
 
 const Cases = () => {
   return (
-    <div data-aos="zoom-out-down">
+    <div  data-aos="zoom-out-down"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
       <section className="Cases">
         <h1>
           Fighting to get what <br /> you deserve
@@ -32,18 +34,28 @@ const Cases = () => {
           </p>
         </div>
         <div className="caseBadges row">
-          <img className="col-12 col-md-6 col-lg-4" src={img1} alt="" />
-          <img className="col-12 col-md-6 col-lg-4" src={img2} alt="" />
-          <img className="col-12 col-md-6 col-lg-4" src={img3} alt="" />
+          <img  data-aos="zoom-out-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="col-12 col-md-6 col-lg-4" src={img1} alt="" />
+          <img  data-aos="zoom-out"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="col-12 col-md-6 col-lg-4" src={img2} alt="" />
+          <img  data-aos="zoom-out-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="col-12 col-md-6 col-lg-4" src={img3} alt="" />
         </div>
       </section>
       <section>
-        <div className="meet">
+        <div className="meet"  data-aos="fade-down"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <img src={pattern2} alt="" />
           <h1>Meet the Partners</h1>
           <img src={pattern2} alt="" />
         </div>
-        <div className="partners row">
+        <div className="partners row"  data-aos="fade-up"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <img className="col-12 col-lg-2 col-md-4" src={logo1} alt="" />
           <img className="col-12 col-lg-2 col-md-4" src={logo2} alt="" />
           <img className="col-12 col-lg-2 col-md-4" src={logo3} alt="" />

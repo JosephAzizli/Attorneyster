@@ -3,14 +3,15 @@ import Form from '../components/form/Form'
 
 import FormAnimation from '../Animations/FormAnimation'
 import Navbar from '../components/navbar/Navbar'
+import AnimatedPage from '../Animations/AnimatedPage'
 
 const Appointment = () => {
   return (
     <>
     <Navbar/>
-    <FormAnimation>
+    <AnimatedPage>
     <Form/>
-    </FormAnimation>
+    </AnimatedPage>
     </>
   )
 }

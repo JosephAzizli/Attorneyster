@@ -369,7 +369,7 @@ letter-spacing: 0.4px;
     display: block;
   }
   .nav__menu {
-    z-index: 100;
+    z-index: 10000;
     position: fixed;
     background: #d1b06b;
     flex-direction: column;

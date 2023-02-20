@@ -45,7 +45,9 @@ const Footer = () => {
         <img src={pattern2} alt="" />
       </div>
       <div className="footer_links row">
-        <div className="col-12 col-md-6 col-lg-3">
+        <div className="col-12 col-md-6 col-lg-3"  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <h2>Quick Link</h2>
           <div className="quick">
             <ul>
@@ -104,7 +106,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="col-12 col-md-6 col-lg-3">
+        <div className="col-12 col-md-6 col-lg-3"  data-aos="fade-up"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <h2>Utility Pages</h2>
           <ul>
             <li>
@@ -134,7 +138,9 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="col-12 col-md-6 col-lg-3">
+        <div className="col-12 col-md-6 col-lg-3"  data-aos="fade-up"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <h2>Practice Area</h2>
           <ul>
             <li>
@@ -164,7 +170,9 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="col-12 col-md-6 col-lg-3">
+        <div className="col-12 col-md-6 col-lg-3"  data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <h2>Contact Us</h2>
           <div>
             <p>Attorney Law Office, 121 King Street,Las Vegas 90027,USA.</p>
@@ -186,7 +194,7 @@ const Footer = () => {
           Copyright © Attorney Law | Designed by{" "}
           <a href="#" onClick={()=> setBtn(!Btn)}>
             <span>YUSIF AZIZLI</span>
-          </a>{" "}
+          </a>
           - Powered by <span>Webflow.</span>
         </p>
         <div className="social-links">

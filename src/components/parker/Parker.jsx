@@ -13,7 +13,9 @@ import exp from "./images/35.svg";
 
 const Parker = () => {
   return (
-    <div className="parker">
+    <div className="parker"  data-aos="fade-left"
+    data-aos-offset="200"
+    data-aos-easing="ease-in-sine">
       <div className="row">
         <img
           className="statue col-12 col-md-5 col-lg-6"

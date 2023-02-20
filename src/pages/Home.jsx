@@ -8,10 +8,10 @@ import AnimatedPage from '../Animations/AnimatedPage'
 const Home = () => {
   return (
     <div className='Home'>
-    <AnimatedPage>
+    <>
         <Navbar/>
     <Intro/>
-    </AnimatedPage>
+    </>
     </div>
   )
 }

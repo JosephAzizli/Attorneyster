@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect,useState} from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
 
@@ -28,8 +28,26 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 function App() {
+  const [loading,setLoading] = useState(false);
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{
+        setLoading(false)
+    },2000);
+  }, [])
+  useEffect(() =>{
+    AOS.init({duration:1500})
+  }, [])
+
   
   return (
+    <>
+    {
+        loading 
+        ? <Loading/>
+         
+        :
+   
     <>
     <AnimatePresence>
     <Routes>
@@ -45,6 +63,8 @@ function App() {
     </AnimatePresence>
     {/* <Blog/> */}
     <Footer/>
+    </>
+} 
     </>
   );
 }

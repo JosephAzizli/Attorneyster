@@ -13,7 +13,7 @@ const AnimatedPage = ({ children }) => {
       initial="initial"
       animate="animate"
       exit="exit"
-      transition={{ type:'spring', duration: 1.5, bounce:0.7 }}
+      transition={{ type:'spring', duration: 2, bounce:0.7 }}
     >
       {children}
     </motion.div>

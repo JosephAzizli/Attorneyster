@@ -39,6 +39,9 @@ const Laws = () => {
             <div className="col-md-6 col-12 col-lg-4">
               <motion.div 
               className="card"
+              data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
               whileHover={{
                 scale: 1.1
                 }}
@@ -61,6 +64,9 @@ const Laws = () => {
             </div>
             <div className="col-md-6 col-12 col-lg-4">
               <motion.div class="card"
+              data-aos="fade-down"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
               whileHover={{scale:1.1}}>
                 <div class="card-body">
                   <h5 class="card-title">Construction Law</h5>
@@ -79,6 +85,9 @@ const Laws = () => {
             </div>
             <div className="col-md-6 col-12 col-lg-4">
               <motion.div class="card"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
               whileHover={{scale:1.1}}>
                 <div class="card-body">
                   <h5 class="card-title">Car Accident</h5>
@@ -98,7 +107,9 @@ const Laws = () => {
           </div>
           <div className="card-bottom row gy-5 ">
             <div className="col-md-6 col-12 col-lg-4">
-              <motion.div class="card"
+              <motion.div class="card" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
               whileHover={{scale:1.1}}>
                 <div class="card-body">
                   <h5 class="card-title">Wrongful Death</h5>
@@ -117,6 +128,9 @@ const Laws = () => {
             </div>
             <div className="col-md-6 col-12 col-lg-4">
               <motion.div class="card"
+              data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
               whileHover={{scale:1.1}}>
                 <div class="card-body">
                   <h5 class="card-title">Criminal Law</h5>
@@ -135,6 +149,9 @@ const Laws = () => {
             </div>
             <div className="col-md-6 col-12 col-lg-4">
               <motion.div class="card"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
               whileHover={{scale:1.1}}>
                 <div class="card-body">
                   <h5 class="card-title">Family Law</h5>

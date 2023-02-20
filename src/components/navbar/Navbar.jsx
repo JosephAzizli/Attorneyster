@@ -2,6 +2,8 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+
+import { motion } from "framer-motion";
 //CSS
 import "./Navbar.css";
 
@@ -14,6 +16,11 @@ const Navbar = () => {
   const [collapse, setCollapse] = useState("nav__menu");
   const [toggleIcon, setToggleIcon] = useState("toggler__icon");
 
+  const animations = {
+    initial: { opacity: 0, y: -100 },
+    animate: { opacity: 1, y: 0 },
+    exit: { opacity: 0, y: -100 },
+  };
 
   const onToggle = () => {
     collapse === "nav__menu"
@@ -25,7 +32,12 @@ const Navbar = () => {
       : setToggleIcon("toggler__icon");
   };
   return (
-    <div className="container">
+    <motion.div variants={animations}
+    initial="initial"
+    animate="animate"
+    exit="exit"
+    transition={{ type:'spring', duration: 2.4}}
+    className="container"  >
       <div className="row">
         <div className="col-12 col-md-6 col-lg-11">
           <div className="logo row">
@@ -37,7 +49,7 @@ const Navbar = () => {
             </Link>
           </div>
           <nav className="nav">
-            <div className="nav-links">
+            <div className="nav-links" >
               <ul className={collapse}>
                 <li className="nav__item">
                   <Link className="hvreffct nav__link" to="/">Home</Link>
@@ -83,7 +95,7 @@ const Navbar = () => {
           </nav>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
