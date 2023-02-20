@@ -192,9 +192,9 @@ const Footer = () => {
       <div className="copyright">
         <p>
           Copyright © Attorney Law | Designed by{" "}
-          <a href="#" onClick={()=> setBtn(!Btn)}>
+          <button onClick={()=> setBtn(!Btn)}>
             <span>YUSIF AZIZLI</span>
-          </a>
+          </button>
           - Powered by <span>Webflow.</span>
         </p>
         <div className="social-links">
