@@ -79,9 +79,9 @@ const Footer = () => {
             </ul>
             <ul>
               <li>
-                <a className="hvreffct" href="">
+                <Link className="hvreffct" to="/blogs">
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
                 <a className="hvreffct" href="#">
@@ -132,7 +132,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <Link className="hvreffct" to="/error">
+              <Link className="hvreffct" to="/">
                 Error Page
               </Link>
             </li>
@@ -180,11 +180,11 @@ const Footer = () => {
 
           <ul>
             <li>
-              <span>Phone:</span> <a href="#">(011)9876 54321</a>
+              <span>Phone:</span> <a className="hvreffct" href="#">(011)9876 54321</a>
             </li>
             <li>
               <span>Email: </span>
-              <a href="#">Info@Example.Com</a>
+              <a className="hvreffct" href="mailto:Info@Example.com">Info@Example.Com</a>
             </li>
           </ul>
         </div>

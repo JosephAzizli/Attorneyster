@@ -83,7 +83,7 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="mail">
-                <a className="glass" href="#">
+                <a className="glass" href="mailto:yourmail@mail.com">
                   <img src={mail} alt="" />
                 </a>
                 <div>

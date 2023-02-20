@@ -2,18 +2,17 @@ import React from 'react'
 
 import './Blog.css'
 
-import data from './blogdata.json'
 
-const Blog = ( image, date, title, body) => {
+const Blog = ( sekil, tarix, basliq, metn) => {
   return (
     <div>
-        <img src={image} alt="" />
+        <img src={sekil} alt="" />
         <div>
-            <p>{date}</p>
+            <p>{tarix}</p>
         </div>
         <div>
-            <h1>{title}</h1>
-            <p>{body}</p>
+            <h1>{basliq}</h1>
+            <p>{metn}</p>
             <a href="#">View More</a>
         </div>
     </div>

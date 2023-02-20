@@ -20,13 +20,17 @@ const Laws = () => {
     data-aos-offset="300"
     data-aos-easing="ease-in-sine">
       <div className="explore row">
-        <div className="txt-section col-12 col-md-3 col-lg-5">
+        <div className="txt-section col-12 col-md-3 col-lg-5" data-aos="fade-right"
+    data-aos-offset="200"
+    data-aos-easing="ease-in-sine">
           <h1>
             Explore The perfect <br /> Our Practice Areas
           </h1>
           <img src={pattern} alt="" />
         </div>
-        <p className="col-12 col-md-9 col-lg-7">
+        <p className="col-12 col-md-9 col-lg-7" data-aos="fade-left"
+    data-aos-offset="200"
+    data-aos-easing="ease-in-sine">
           We are a group of civil litigation/trial attorneys who focus on
           providing a justice based on the issues relating to insurance defense,
           insurance coverage, bad faith, insurance fraud and criminal

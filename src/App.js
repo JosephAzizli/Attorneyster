@@ -5,14 +5,17 @@ import "bootstrap/dist/js/bootstrap";
 //REACT-ROUTER-DOM
 import { Route, Routes } from "react-router-dom";
 
+//FRAMER-MOTION
 import { AnimatePresence } from "framer-motion";
+
+
 import "./App.css";
 
 
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
-
 import Loading from "./components/loading/Loading";
+
 //PAGES
 import About from "./pages/About";
 import Contacting from "./pages/Contacting";
@@ -21,10 +24,12 @@ import Pages from "./pages/Pages";
 import Lawss from "./pages/Lawss";
 import ErrorPage from './pages/ErrorPage';
 import Appointment from './pages/Appointment';
-import Blog from './components/RecentBlogs/Blog';
+import BlogPage from './pages/BlogPage';
 
+//ANIMATION ON SCROLL
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+
 // ..
 AOS.init();
 function App() {
@@ -59,6 +64,7 @@ function App() {
       <Route path="/laws" element={<Lawss/>}/>
       <Route path="/error" element={<ErrorPage/>}/>
       <Route path="/form" element={<Appointment/>}/>
+      <Route path="/blogs" element={<BlogPage/>}/>
     </Routes>
     </AnimatePresence>
     {/* <Blog/> */}

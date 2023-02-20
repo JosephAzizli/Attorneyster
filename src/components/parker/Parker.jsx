@@ -13,10 +13,10 @@ import exp from "./images/35.svg";
 
 const Parker = () => {
   return (
-    <div className="parker"  data-aos="fade-left"
+    <div className="parker"  >
+      <div className="row" data-aos="fade-right"
     data-aos-offset="200"
     data-aos-easing="ease-in-sine">
-      <div className="row">
         <img
           className="statue col-12 col-md-5 col-lg-6"
           src={statue}
@@ -33,7 +33,9 @@ const Parker = () => {
           </p>
         </div>
       </div>
-      <div className="row">
+      <div className="row" data-aos="fade-left"
+    data-aos-offset="200"
+    data-aos-easing="ease-in-sine">
         <img className="hammer col-12 col-md-5 col-lg-6" src={hammer} alt="" />
         <div className="peter col-12 col-md-7 col-lg-6">
           <div>
