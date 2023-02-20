@@ -1,6 +1,6 @@
 .laws {
-  margin: 130px 0;
-  padding: 0 40px;
+  margin: 8.125rem 0;
+  padding: 0 2.5rem;
 }
 .explore {
   display: flex;
@@ -14,7 +14,7 @@
 
 .txt-section h1 {
   display: flex;
-  max-width: 365px;
+  max-width: 22.8125rem;
   font-family: "Cormorant Garamond";
   font-style: normal;
   font-weight: 400;
@@ -26,50 +26,35 @@
   color: #fff;
 }
 
-@media (max-width:770px) {
-    .txt-section h1{
-      font-size: 36px;
-    }
-    .explore p{
-      font-size: 16px;
-    }
+@media (max-width: 770px) {
+  .txt-section h1 {
+    font-size: 36px;
+  }
+  .explore p {
+    font-size: 16px;
+  }
 }
 .explore p {
-  max-width: 660px;
+  max-width: 41.25rem;
   font-family: "Outfit";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  /* or 160% */
-
   letter-spacing: 0.4px;
 
   color: #d7d7d7;
 }
 
 .cards-section {
-  margin-top: 60px;
+  margin-top: 3.75rem;
   display: flex;
 }
 
-/* 
-@media (max-width:987px){
-    .laws{
-        padding: 40px;
-    }
-    
-} */
-
-/* .main-law {
-    display: flex;
-
-} */
 .card {
-  max-width: 430px;
-  height: 429px !important;
+  max-width: 26.875rem;
+  height: 26.8125rem !important;
   background: #1f2732 !important;
-  /* display: inline !important; */
 }
 
 .card-main {
@@ -84,10 +69,6 @@
   padding: 0;
   justify-content: space-around;
 }
-
-/* .card-top{
-    display: flex;
-} */
 
 .btn {
   background: #161d27;
@@ -114,7 +95,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-
   letter-spacing: 0.4px;
 
   color: #d7d7d7;
@@ -132,7 +112,6 @@
 }
 
 .card-body {
-  /* display: inline !important; */
   background: #1f2732;
   padding: 55px 54px 70px 50px;
 }

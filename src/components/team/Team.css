@@ -1,112 +1,110 @@
-.team{
-    background: #fff;
+.team {
+  background: #fff;
 
-    padding: 124px 40px 131px;
+  padding: 7.75rem 2.5rem 8.1875rem;
 }
 
-.team h1{
-    display: flex;
-    justify-content: center;
-    font-family: 'Cormorant Garamond';
-font-style: normal;
-font-weight: 400;
-font-size: 45px;
-line-height: 54px;
-text-align: center;
-letter-spacing: 0.4px;
-text-transform: capitalize;
+.team h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
 
-color: #161D27;
-
+  color: #161d27;
 }
-.team div{
-    display: flex;
-}
-
-.crew{
-    display: flex;
-    flex-direction: column;
-    width: 433px;
-    
-}
-.box{
-    position: relative;
-    height: 580px;
-    display: flex;
-    justify-content: center;
-    background: rgb(132,140,140);
-    background: linear-gradient(0deg, rgba(132,140,140,1) 0%, rgba(215,215,213,1) 42%);
+.team div {
+  display: flex;
 }
 
-.box img{
-    position: absolute;
-    bottom: 0;
-    height: 90%;
-    transition: height 0.5s; 
-   
+.crew {
+  display: flex;
+  flex-direction: column;
+  width: 27.0625rem;
+}
+.box {
+  position: relative;
+  height: 36.25rem;
+  display: flex;
+  justify-content: center;
+  background: rgb(132, 140, 140);
+  background: linear-gradient(
+    0deg,
+    rgba(132, 140, 140, 1) 0%,
+    rgba(215, 215, 213, 1) 42%
+  );
 }
 
-.box:hover img{
-    transition: ease-in-out 1.2s;
-    height: 620px;
-    background: none;
+.box img {
+  position: absolute;
+  bottom: 0;
+  height: 90%;
+  transition: height 0.5s;
 }
 
-.crew h1{
-    margin-top: 20px;
-    font-family: 'Cormorant Garamond';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 39px;
-text-align: center;
-letter-spacing: 0.4px;
-
-color: #161D27;
-
+.box:hover img {
+  transition: ease-in-out 1.2s;
+  height: 38.75rem;
+  background: none;
 }
 
-.crew p{
-    font-family: 'Outfit';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 32px;
-text-align: center;
-letter-spacing: 0.4px;
+.crew h1 {
+  margin-top: 1.25rem;
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.4px;
 
-color: #D1B06B;
-
+  color: #161d27;
 }
 
-.box:hover .social{
-    visibility: visible;
-    transition: height ease-in-out 0.3s;
-}
-.social:hover{
-    height: 66px;
-}
-.social{
-    width: 217px;
-    display: flex;
-    justify-content: space-evenly;
-    position: absolute;
-    bottom: 0;
-    background: #fff;
-    padding: 20px 0;
-    visibility: hidden;
-    height: 0;
-    transition: height ease-in-out 0.3s;
+.crew p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.4px;
+
+  color: #d1b06b;
 }
 
-.social a{
-    color: #161D27;
+.box:hover .social {
+  visibility: visible;
+  transition: height ease-in-out 0.3s;
+}
+.social:hover {
+  height: 4.125rem;
+}
+.social {
+  width: 13.5625rem;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  padding: 20px 0;
+  visibility: hidden;
+  height: 0;
+  transition: height ease-in-out 0.3s;
 }
 
+.social a {
+  color: #161d27;
+}
 
-.personal{
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-items: center;
+.personal {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
 }

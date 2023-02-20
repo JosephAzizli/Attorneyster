@@ -1,7 +1,6 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-
 
 import { motion } from "framer-motion";
 //CSS
@@ -32,16 +31,18 @@ const Navbar = () => {
       : setToggleIcon("toggler__icon");
   };
   return (
-    <motion.div variants={animations}
-    initial="initial"
-    animate="animate"
-    exit="exit"
-    transition={{ type:'spring', duration: 2.4}}
-    className="container"  >
+    <motion.div
+      variants={animations}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      transition={{ type: "spring", duration: 2.4 }}
+      className="container"
+    >
       <div className="row">
         <div className="col-12 col-md-6 col-lg-11">
           <div className="logo row">
-            <Link to="/" className="col-12 col-md-3 col-lg-5" >
+            <Link to="/" className="col-12 col-md-3 col-lg-5">
               <img src={logo} alt="" />
             </Link>
             <Link to="/form" className="col-12 col-md-12 col-lg-7 glass mine">
@@ -49,26 +50,34 @@ const Navbar = () => {
             </Link>
           </div>
           <nav className="nav">
-            <div className="nav-links" >
+            <div className="nav-links">
               <ul className={collapse}>
                 <li className="nav__item">
-                  <Link className="hvreffct nav__link" to="/">Home</Link>
+                  <Link className="hvreffct nav__link" to="/">
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <Link className="hvreffct nav__link" to="/about">About Us</Link>
+                  <Link className="hvreffct nav__link" to="/about">
+                    About Us
+                  </Link>
                 </li>
                 <li>
-                  <Link className="hvreffct nav__link" to="/pages">Pages</Link>
+                  <Link className="hvreffct nav__link" to="/pages">
+                    Pages
+                  </Link>
                 </li>
                 <li>
-                  <Link className="hvreffct nav__link" to="/contact">Contact Us</Link>
+                  <Link className="hvreffct nav__link" to="/contact">
+                    Contact Us
+                  </Link>
                 </li>
               </ul>
               <div className={toggleIcon} onClick={onToggle}>
-            <div className="line__1"></div>
-            <div className="line__2"></div>
-            <div className="line__3"></div>
-          </div>
+                <div className="line__1"></div>
+                <div className="line__2"></div>
+                <div className="line__3"></div>
+              </div>
             </div>
             <div className="contact ">
               <div className="phone">

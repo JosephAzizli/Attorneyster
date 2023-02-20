@@ -1,8 +1,8 @@
-.opinion{
-    padding: 0 40px 212px;
+.opinion {
+  padding: 0 2.5rem 13.25rem;
 }
 .opinion h1 {
-  margin-top: 124px;
+  margin-top: 7.75rem;
   justify-content: center;
   display: flex;
   font-family: "Cormorant Garamond";
@@ -20,5 +20,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
 }

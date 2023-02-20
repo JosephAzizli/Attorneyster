@@ -3,6 +3,7 @@ import React from "react";
 //CSS
 import "./Laws.css";
 
+//FRAMER MOTION
 import { motion } from "framer-motion";
 
 //IMAGES

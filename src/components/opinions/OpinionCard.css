@@ -1,6 +1,6 @@
 .opinionCard {
-  max-width: 313px;
-  height: 494px;
+  max-width: 19.5625rem;
+  height: 30.875rem;
   display: flex;
   flex-direction: column;
 }
@@ -30,7 +30,7 @@
   border-radius: 1px 1px 1px 40px;
   background: #2e3947;
   margin-bottom: 20px;
-  height: 391px;
+  height: 24.4375rem;
   padding: 51px 51px 57px 45px;
 }
 

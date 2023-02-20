@@ -15,6 +15,7 @@ import img1 from "./images/clients.svg";
 import img2 from "./images/succsfulcases.svg";
 import img3 from "./images/casesserved.svg";
 
+
 const Cases = () => {
   return (
     <div  data-aos="zoom-out-down"

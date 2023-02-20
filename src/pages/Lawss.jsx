@@ -1,17 +1,17 @@
-import React from 'react'
-import AnimatedPage from '../Animations/AnimatedPage'
-import Laws from '../components/laws/Laws'
-import Navbar from '../components/navbar/Navbar'
+import React from "react";
+import AnimatedPage from "../Animations/AnimatedPage";
+import Laws from "../components/laws/Laws";
+import Navbar from "../components/navbar/Navbar";
 
 const Lawss = () => {
   return (
     <>
-    <Navbar/>
-    <AnimatedPage>
-        <Laws/>
-    </AnimatedPage>
+      <Navbar />
+      <AnimatedPage>
+        <Laws />
+      </AnimatedPage>
     </>
-  )
-}
+  );
+};
 
-export default Lawss
+export default Lawss;

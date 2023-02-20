@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 //CSS
@@ -8,9 +8,28 @@ import "./Intro.css";
 //IMAGES
 import pattern from "./images/pattern.svg";
 import lawyer from "./images/vekilqaqash.svg";
+import saul from "./images/Saul.jpg";
+
+const images = [
+  lawyer ,
+  saul
+];
+
 
 const Intro = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+
+  const handleClick = () => {
+    if (currentIndex === images.length - 1) {
+      setCurrentIndex(0);
+    } else {
+      setCurrentIndex(currentIndex + 1);
+    }
+  };
+  
   return (
+    
     <div className="Introduction row"  data-aos="fade-right"
     data-aos-offset="300"
     data-aos-easing="ease-in-sine">
@@ -27,7 +46,9 @@ const Intro = () => {
           </Link>
         </div>
       </div>
-      <img className="lawyer col-12 col-md-7 col-lg-6" src={lawyer} alt="" />
+      <img className="lawyer col-12 col-md-7 col-lg-6" src={images[currentIndex]}
+  alt="current image"
+  onClick={handleClick}/>
     </div>
   );
 };

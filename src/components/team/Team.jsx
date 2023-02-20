@@ -24,9 +24,13 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 const Team = () => {
   return (
     <div className="team" data-aos="zoom-in-right">
-      <h1  data-aos="fade-down"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">Our Experienced Attorney Are Ready To answer any questions</h1>
+      <h1
+        data-aos="fade-down"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
+        Our Experienced Attorney Are Ready To answer any questions
+      </h1>
       <div className="patter">
         <img src={pattern} alt="" />
       </div>
@@ -76,7 +80,7 @@ const Team = () => {
                   </a>
                 </div>
               </div>
-              <div className='personal'>
+              <div className="personal">
                 <h1>John Turner</h1>
                 <p>Civil Attorney</p>
               </div>
@@ -101,7 +105,7 @@ const Team = () => {
                   </a>
                 </div>
               </div>
-              <div className='personal'>
+              <div className="personal">
                 <h1>Martha Black</h1>
                 <p>Associate Attorney</p>
               </div>
@@ -126,7 +130,7 @@ const Team = () => {
                   </a>
                 </div>
               </div>
-              <div className='personal'>
+              <div className="personal">
                 <h1>Brian Gomez</h1>
                 <p>Titular Attorney</p>
               </div>
@@ -151,7 +155,7 @@ const Team = () => {
                   </a>
                 </div>
               </div>
-              <div className='personal'>
+              <div className="personal">
                 <h1>John Turner</h1>
                 <p>Civil Attorney</p>
               </div>
@@ -176,7 +180,7 @@ const Team = () => {
                   </a>
                 </div>
               </div>
-              <div className='personal'>
+              <div className="personal">
                 <h1>Martha Black</h1>
                 <p>Associate Attorney</p>
               </div>
@@ -201,7 +205,7 @@ const Team = () => {
                   </a>
                 </div>
               </div>
-              <div className='personal'>
+              <div className="personal">
                 <h1>Brian Gomez</h1>
                 <p>Titular Attorney</p>
               </div>

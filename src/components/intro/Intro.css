@@ -2,12 +2,10 @@
 .Introduction {
   display: flex;
   background-color: transparent;
-  padding: 0 40px;
-  /* padding-top: 300px; */
-  /* overflow-x: hidden; */
+  padding: 0 2.5rem;
 }
 .left-side {
-  padding-top: 129px;
+  padding-top: 8.06rem;
 }
 .left-side h1 {
   font-family: "Cormorant Garamond";
@@ -16,10 +14,9 @@
   font-size: 65px;
   line-height: 78px;
   letter-spacing: 0.4px;
-
   color: #ffffff;
-  margin-top: 14px;
-  margin-bottom: 21px;
+
+  margin: 14px 0 21px;
 }
 
 .left-side p {
@@ -28,7 +25,6 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 40px;
-
   letter-spacing: 0.4px;
 
   color: #d1b06b;
@@ -46,7 +42,7 @@
 
   color: #1f2732;
 
-  padding: 25px 71px 24px;
+  padding: 1.5625rem 4.4375rem 1.5rem;
   justify-content: center;
   display: flex;
   width: 269px;
@@ -55,28 +51,19 @@
 }
 
 .lawyer {
-  max-width: 672px;
-  margin-top: 19px;
+  max-width: 42rem;
+  margin-top: 1.1875rem;
 }
-
-/* .right-side img{
-    max-width: 672px;
-    max-height: 708px;
-}
- */
-/* .right-side{
-    margin-top: 19px;
-}  */
 
 @media (max-width: 768px) {
   .lawyer {
     display: none;
   }
 }
-@media (max-width:480px) {
-    .left-side h1{
-      font-size: 45px;
-    }
+@media (max-width: 480px) {
+  .left-side h1 {
+    font-size: 45px;
+  }
 }
 @media (max-width: 1417px) {
   .Introduction {

@@ -13,16 +13,10 @@ li {
   list-style: none;
 }
 
-.container{
+.container {
   background-color: transparent;
 }
-/* .container{
-position: fixed;
-background: #161d27;
-width: 100vw;
-z-index: 5;
-border-radius: 0 0 60px 60px;
-} */
+
 .logo {
   display: flex;
   justify-content: space-between;
@@ -65,25 +59,10 @@ nav {
   border-bottom: 1px solid #4e555f;
 }
 
-.nav-links{
-    display: flex;
-    align-items: center;
-
+.nav-links {
+  display: flex;
+  align-items: center;
 }
-
-/* .nav-links a{
-    text-decoration: none;
-    color: #fff;
-    margin-right: 50px;
-
-    font-family: 'Outfit';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 35px;
-letter-spacing: 0.4px;
-
-} */
 
 :is(.phone, .mail) a {
   width: 62px;
@@ -110,25 +89,20 @@ letter-spacing: 0.4px;
   display: flex;
 
   max-width: 271px;
-  /* max-height: 62px; */
 }
-.mail{
+.mail {
   margin-left: 50px;
 }
-/* @media (max-width:990px) {
-  
-  .phone , .mail{
-    margin: 0;
-  }
-} */
-@media (max-width:770px) {
-  nav{
+
+@media (max-width: 770px) {
+  nav {
     align-items: flex-start;
     flex-direction: column;
-  }.contact{
+  }
+  .contact {
     flex-direction: column;
   }
-  .mail{
+  .mail {
     margin: 0;
   }
 }
@@ -160,9 +134,6 @@ letter-spacing: 0.4px;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* background-color: #00BAF0;
-  background: linear-gradient(to left, #f46b45, #eea849); */
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
   height: 50px;
   padding: 1em;
@@ -178,7 +149,6 @@ letter-spacing: 0.4px;
 
 .menu > li {
   margin: 0 1rem;
-  /* overflow: hidden; */
 }
 
 .menu li a {
@@ -189,23 +159,23 @@ letter-spacing: 0.4px;
   background: transparent;
   border: none;
   position: relative;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .hvreffct::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   height: 2px;
   width: 0;
   background-color: #ffc506;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .hvreffct:hover {
   color: #2e2e3a;
-  transition-delay: .5s;
+  transition-delay: 0.5s;
 }
 
 .hvreffct:hover::before {
@@ -213,14 +183,14 @@ letter-spacing: 0.4px;
 }
 
 .hvreffct::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   height: 0;
   width: 100%;
   background-color: #ffc506;
-  transition: .4s ease;
+  transition: 0.4s ease;
   z-index: -1;
 }
 
@@ -230,12 +200,12 @@ letter-spacing: 0.4px;
   color: aliceblue;
 }
 
+/* 
+glass hover effect for buttons */
 .glass {
   position: relative;
-
   text-decoration: none;
   overflow: hidden;
-
   box-shadow: 0 5px 5px rgba(0, 0, 0.2);
 }
 .glass:before {

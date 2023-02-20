@@ -1,5 +1,6 @@
 import React from 'react'
 import "../components/errorpg/Errorpg"
+
 const ErrorPage = () => {
   return (
     <>

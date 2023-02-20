@@ -1,7 +1,6 @@
 import React from 'react'
-import Form from '../components/form/Form'
 
-import FormAnimation from '../Animations/FormAnimation'
+import Form from '../components/form/Form'
 import Navbar from '../components/navbar/Navbar'
 import AnimatedPage from '../Animations/AnimatedPage'
 

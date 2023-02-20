@@ -8,7 +8,7 @@
 
 .footer_logo {
   width: 100vw;
-  margin: 131px 0 56px;
+  margin: 8.19rem 0 3.5rem;
 }
 
 .footer_logo img {
@@ -18,15 +18,15 @@
 .footer_links {
   display: flex;
   justify-content: space-between;
-  padding: 0 40px;
+  padding: 0 2.5rem;
 }
 
 .footer_links div {
-  width: 323px;
+  width: 20.1875rem;
 }
 .footer_links h2 {
-  margin-bottom: 39px;
-  padding: 21px 0;
+  margin-bottom: 2.4375rem;
+  padding: 1.3125rem 0;
   border-bottom: 1px solid #3b434e;
   border-top: 1px solid #3b434e;
   font-family: "Cormorant Garamond";
@@ -80,16 +80,16 @@
 .copyright {
   display: flex;
   justify-content: space-between;
-  padding: 26px 40px 25px;
+  padding: 1.625rem 2.5rem 1.5625rem;
   border-bottom: 1px solid #3b434e;
   border-top: 1px solid #3b434e;
-  margin: 85px 0 110px;
+  margin: 5.3125rem 0 6.875rem;
 }
 
 .social-links {
   display: flex;
   justify-content: space-around;
-  width: 223px;
+  width: 13.9375rem;
 }
 
 .social-links p {
@@ -102,5 +102,5 @@
 
   color: #d1b06b;
 
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }

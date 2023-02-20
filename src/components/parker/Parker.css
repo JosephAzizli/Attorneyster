@@ -1,19 +1,19 @@
 .parker {
   display: flex;
   flex-direction: column;
-  margin: 140px 0 0;
-  padding: 0 40px;
+  margin: 8.75rem 0 0;
+  padding: 0 2.5rem;
 }
 
 .parker div {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .statue,
 .hammer {
-  max-width: 467px;
-  max-height: 294px;
+  max-width: 29.1875rem;
+  max-height: 18.375rem;
 }
 
 .text img {
@@ -22,14 +22,12 @@
 }
 
 .text p {
-  margin-top: 42px;
+  margin-top: 2.625rem;
   font-family: "Outfit";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  /* or 160% */
-
   letter-spacing: 0.4px;
 
   color: #d7d7d7;
@@ -46,6 +44,7 @@
 
   color: #fff;
 }
+
 .peter,
 .text {
   display: flex;
@@ -53,11 +52,11 @@
 }
 
 .peter div {
-  margin-bottom: 45px;
+  margin-bottom: 2.8125rem;
 }
 
 .peter div img {
-  max-height: 90px;
+  max-height: 5.625rem;
 }
 
 .peter div h1 {
@@ -68,59 +67,11 @@
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
-  /* identical to box height, or 130% */
-
   letter-spacing: 0.4px;
 
   color: #fff;
 }
 
 .badges img {
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
-
-/* :is(.success, .exp) div {
-  display: flex;
-  flex-direction: column;
-  margin-left: 21px;
-}
-.success {
-  max-width: 315px;
-  max-height: 126px;
-  background: #3b434e;
-  padding: 30px 50px;
-}
-.success p {
-  margin-top: -4px;
-  justify-self: center;
-  font-family: "Outfit";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 29px;
-  letter-spacing: 0.4px;
-
-  color: #d7d7d7;
-}
-
-.exp {
-  max-width: 315px;
-  max-height: 126px;
-  background: #d1b06b;
-  padding: 33px 50px;
-}
-
-.exp {
-  margin-left: 30px;
-}
-.exp p {
-  margin-top: -4px;
-  font-family: "Outfit";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 29px;
-  letter-spacing: 0.4px;
-
-  color: #1f2732;
-} */

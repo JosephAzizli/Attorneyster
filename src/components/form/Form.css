@@ -1,28 +1,27 @@
-.form{
-  padding: 140px 40px;
+.form {
+  padding: 8.75rem 2.5rem;
   background-image: url("https://res.cloudinary.com/dg9gujywv/image/upload/v1676799454/IMAGE_y7amwe.png");
 }
-form{
+form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #1F2732;
-  padding: 89px 100px;
+  background: #1f2732;
+  padding: 5.5625rem 6.25rem;
 }
 
-form div{
-
+form div {
   display: flex;
-  margin-bottom: 38px;
+  margin-bottom: 2.375rem;
   justify-self: flex-start;
 }
 
 .inputbox {
   position: relative;
-  max-width: 556.8px;
-  min-width: 230px;
-  margin-right: 46px;
+  max-width: 34.8rem;
+  min-width: 14.375rem;
+  margin-right: 2.875rem;
 }
 
 .inputbox input {
@@ -51,11 +50,11 @@ form div{
   pointer-events: none;
 }
 
-.inputbox input:valid ~span,
-.inputbox input:focus ~span {
-  color: #D1B06B;
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span {
+  color: #d1b06b;
   transform: translateX(-10px) translateY(-34px);
-  font-size: 0,75em;
+  font-size: 0, 75em;
 }
 
 .inputbox i {
@@ -71,57 +70,33 @@ form div{
   z-index: 9;
 }
 
-.inputbox input:valid ~i,
-.inputbox input:focus ~i {
+.inputbox input:valid ~ i,
+.inputbox input:focus ~ i {
   height: 44px;
 }
 
-/* form button{
-  padding: 30px;
-  font-family: 'Outfit';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 22px;
-
-letter-spacing: 0.4px;
-
-color: #3B434E;
-
-}
-
-form button:hover{
-  background-color: #8f8f8f;
-  transition: 1.5s;
-} */
-
 .button2 {
-  font-family: 'Outfit';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 22px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 22px;
 
-letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
 
-color: #3B434E;
+  color: #3b434e;
   display: inline-block;
   transition: all 0.2s ease-in;
   position: relative;
   overflow: hidden;
   z-index: 1;
   padding: 30px;
-  /* border-radius: 0.5em; */
   background: #e8e8e8;
   border: 1px solid #e8e8e8;
-  /* box-shadow: 6px 6px 12px #c5c5c5,
-             -6px -6px 12px #ffffff; */
 }
 
 .button2:active {
   color: #666;
-  /* box-shadow: inset 4px 4px 12px #c5c5c5,
-             inset -4px -4px 12px #ffffff; */
 }
 
 .button2:before {
@@ -147,7 +122,7 @@ color: #3B434E;
   top: 180%;
   width: 160%;
   height: 190%;
-  background-color: #D1B06B;
+  background-color: #d1b06b;
   border-radius: 50%;
   display: block;
   transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
@@ -156,25 +131,23 @@ color: #3B434E;
 
 .button2:hover {
   color: #ffffff;
-  border: 1px solid #D1B06B;
+  border: 1px solid #d1b06b;
 }
 
 .button2:hover:before {
   top: -35%;
-  background-color: #D1B06B;
+  background-color: #d1b06b;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
 .button2:hover:after {
   top: -45%;
-  background-color: #D1B06B;
+  background-color: #d1b06b;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
-
-
-@media (max-width:645px) {
-  form div{
+@media (max-width: 645px) {
+  form div {
     flex-direction: column;
   }
 }

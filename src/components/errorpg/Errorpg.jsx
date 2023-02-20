@@ -1,21 +1,14 @@
-import React from 'react'
+import React from "react";
+
+import saul from './saul.jpg'
 const Errorpg = () => {
   return (
     <>
-<div class="error-text">
-  <h1>404</h1>
-	<h2>Uh, Ohh</h2>
-  <h3>Sorry we cant find what you are looking for 'cuz its so dark in here</h3>
-</div>
-<div class="torch"></div>
-<div class="error-text">
-  <h1>404</h1>
-	<h2>Uh, Ohh</h2>
-  <h3>Sorry we cant find what you are looking for 'cuz its so dark in here</h3>
-</div>
-<div class="torch"></div>
-</>
-  )
-}
+      <div className="saul d-flex justify-content-center" >
+        <img src={saul} alt="" />
+      </div>
+    </>
+  );
+};
 
-export default Errorpg
+export default Errorpg;

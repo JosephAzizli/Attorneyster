@@ -1,8 +1,10 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 
+//REACT-ROUTER
 import { Link } from "react-router-dom";
 
-import ReactConfetti from 'react-confetti'
+//SURPRISE
+import ReactConfetti from "react-confetti";
 
 //CSS
 import "./Footer.css";
@@ -20,20 +22,24 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { FaPinterest } from "react-icons/fa";
 
 const Footer = () => {
-    const [windowDimension, setDimension] = useState({width:window.innerWidth, height: window.innerHeight})
-    const [Btn, setBtn] = useState(false)
+  //FUNCTION FOR SURPRISE
+  const [windowDimension, setDimension] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+  const [Btn, setBtn] = useState(false);
 
-    const detectSize = ()=>{
-        setDimension({width:window.innerWidth, height: window.innerHeight})
-    }
+  const detectSize = () => {
+    setDimension({ width: window.innerWidth, height: window.innerHeight });
+  };
 
-    useEffect(()=>{
-        window.addEventListener('resize', detectSize);
-        return ()=>{
-            window.removeEventListener('resize', detectSize)
-        }
-    }, [windowDimension]);
-    
+  useEffect(() => {
+    window.addEventListener("resize", detectSize);
+    return () => {
+      window.removeEventListener("resize", detectSize);
+    };
+  }, [windowDimension]);
+
   return (
     <div className="footer" data-aos="fade-up" data-aos-duration="3000">
       <div className="ftr_img">
@@ -45,9 +51,12 @@ const Footer = () => {
         <img src={pattern2} alt="" />
       </div>
       <div className="footer_links row">
-        <div className="col-12 col-md-6 col-lg-3"  data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+        <div
+          className="col-12 col-md-6 col-lg-3"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <h2>Quick Link</h2>
           <div className="quick">
             <ul>
@@ -106,9 +115,12 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="col-12 col-md-6 col-lg-3"  data-aos="fade-up"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+        <div
+          className="col-12 col-md-6 col-lg-3"
+          data-aos="fade-up"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <h2>Utility Pages</h2>
           <ul>
             <li>
@@ -138,9 +150,12 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="col-12 col-md-6 col-lg-3"  data-aos="fade-up"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+        <div
+          className="col-12 col-md-6 col-lg-3"
+          data-aos="fade-up"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <h2>Practice Area</h2>
           <ul>
             <li>
@@ -170,9 +185,12 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="col-12 col-md-6 col-lg-3"  data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+        <div
+          className="col-12 col-md-6 col-lg-3"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <h2>Contact Us</h2>
           <div>
             <p>Attorney Law Office, 121 King Street,Las Vegas 90027,USA.</p>
@@ -180,11 +198,16 @@ const Footer = () => {
 
           <ul>
             <li>
-              <span>Phone:</span> <a className="hvreffct" href="#">(011)9876 54321</a>
+              <span>Phone:</span>{" "}
+              <a className="hvreffct" href="#">
+                (011)9876 54321
+              </a>
             </li>
             <li>
               <span>Email: </span>
-              <a className="hvreffct" href="mailto:Info@Example.com">Info@Example.Com</a>
+              <a className="hvreffct" href="mailto:Info@Example.com">
+                Info@Example.Com
+              </a>
             </li>
           </ul>
         </div>
@@ -192,7 +215,7 @@ const Footer = () => {
       <div className="copyright">
         <p>
           Copyright © Attorney Law | Designed by{" "}
-          <button onClick={()=> setBtn(!Btn)}>
+          <button onClick={() => setBtn(!Btn)}>
             <span>YUSIF AZIZLI</span>
           </button>
           - Powered by <span>Webflow.</span>
@@ -213,14 +236,14 @@ const Footer = () => {
           </a>
         </div>
       </div>
-        {Btn && <ReactConfetti
-        width={windowDimension.width}
-        height={windowDimension.height}
-        tweenDuration={1000}
-        />}
+      {Btn && (
+        <ReactConfetti
+          width={windowDimension.width}
+          height={windowDimension.height}
+          tweenDuration={1000}
+        />
+      )}
     </div>
-    
-    
   );
 };
 
