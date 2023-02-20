@@ -17,7 +17,6 @@ const About = () => {
     <History/>
     <Cases/>
     <Team/>
-    <Consultation/>
 </>
     
   )
