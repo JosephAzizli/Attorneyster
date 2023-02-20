@@ -37,7 +37,7 @@ const Cases = () => {
           <img  data-aos="zoom-out-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" className="col-12 col-md-6 col-lg-4" src={img1} alt="" />
-          <img  data-aos="zoom-out"
+          <img  data-aos="zoom-out-up"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" className="col-12 col-md-6 col-lg-4" src={img2} alt="" />
           <img  data-aos="zoom-out-left"
