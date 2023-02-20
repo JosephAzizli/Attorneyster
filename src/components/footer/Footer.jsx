@@ -35,7 +35,7 @@ const Footer = () => {
     }, [windowDimension]);
     
   return (
-    <div className="footer">
+    <div className="footer" data-aos="fade-up" data-aos-duration="3000">
       <div className="ftr_img">
         <img src={footerimg} alt="" />
       </div>

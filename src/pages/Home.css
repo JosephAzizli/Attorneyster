@@ -1,0 +1,14 @@
+.Home{
+    background-image: url("https://res.cloudinary.com/dg9gujywv/image/upload/v1676904353/IMAGE_a6r9ra.png") ;
+    position: relative;
+    isolation: isolate;
+}
+
+.Home::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: #000;
+    opacity: .5;
+}

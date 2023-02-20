@@ -12,7 +12,7 @@ import phone from './images/phone.svg'
 
 const Consultation = () => {
   return (
-    <div className='consultation row'>
+    <div className='consultation row' data-aos="fade-right">
       <div className="left-side col-12 col-md-5 col-lg-6">
         <h1 className='spec'>Our professional Expert law team is always ready to serve you</h1>
         <img src={pattern} alt="" />

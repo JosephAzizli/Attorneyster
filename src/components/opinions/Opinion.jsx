@@ -18,7 +18,8 @@ import "swiper/css/grid";
 
 const Opinion = () => {
   return (
-    <div className="opinion">
+    <div className="opinion" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
       <h1>Client Opinions & Reviews</h1>
       <div className="patter">
         <img src={pattern} alt="" />

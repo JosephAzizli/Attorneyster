@@ -17,7 +17,7 @@ import img3 from "./images/casesserved.svg";
 
 const Cases = () => {
   return (
-    <>
+    <div data-aos="zoom-out-down">
       <section className="Cases">
         <h1>
           Fighting to get what <br /> you deserve
@@ -51,7 +51,7 @@ const Cases = () => {
           <img className="col-12 col-lg-2 col-md-4" src={logo5} alt="" />
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

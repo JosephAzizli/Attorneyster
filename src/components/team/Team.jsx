@@ -23,7 +23,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Team = () => {
   return (
-    <div className="team">
+    <div className="team" data-aos="zoom-in-right">
       <h1>Our Experienced Attorney Are Ready To answer any questions</h1>
       <div className="patter">
         <img src={pattern} alt="" />

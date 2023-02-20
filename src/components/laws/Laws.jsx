@@ -16,7 +16,9 @@ import family from "./icons/family.svg";
 
 const Laws = () => {
   return (
-    <div className="laws">
+    <div className="laws" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
       <div className="explore row">
         <div className="txt-section col-12 col-md-3 col-lg-5">
           <h1>

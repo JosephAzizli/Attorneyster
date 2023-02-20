@@ -12,6 +12,10 @@ a {
 li {
   list-style: none;
 }
+
+.container{
+  background-color: transparent;
+}
 /* .container{
 position: fixed;
 background: #161d27;
@@ -200,7 +204,7 @@ letter-spacing: 0.4px;
 }
 
 .hvreffct:hover {
-  color: #1e1e2b;
+  color: #2e2e3a;
   transition-delay: .5s;
 }
 

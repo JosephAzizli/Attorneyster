@@ -23,11 +23,14 @@ import ErrorPage from './pages/ErrorPage';
 import Appointment from './pages/Appointment';
 import Blog from './components/RecentBlogs/Blog';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 function App() {
   
   return (
     <>
-    <Navbar/>
     <AnimatePresence>
     <Routes>
       <Route path="/" element={<Home/>} />

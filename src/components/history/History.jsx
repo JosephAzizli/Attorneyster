@@ -13,7 +13,7 @@ import { Progress } from "antd";
 
 const History = () => {
   return (
-    <div className="History">
+    <div className="History" data-aos="fade-left">
       <div className="transparent row">
         <div className="left col-12 col-md-6 col-lg-4">
           <h1>We Are Top Lawyers And History</h1>
