@@ -14,6 +14,7 @@ import OpinionCard from "./OpinionCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/grid";
 
 const Opinion = () => {
   return (

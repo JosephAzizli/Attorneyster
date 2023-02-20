@@ -21,6 +21,7 @@ import Pages from "./pages/Pages";
 import Lawss from "./pages/Lawss";
 import ErrorPage from './pages/ErrorPage';
 import Appointment from './pages/Appointment';
+import Blog from './components/RecentBlogs/Blog';
 
 function App() {
   
@@ -39,6 +40,7 @@ function App() {
       <Route path="/form" element={<Appointment/>}/>
     </Routes>
     </AnimatePresence>
+    {/* <Blog/> */}
     <Footer/>
     </>
   );
