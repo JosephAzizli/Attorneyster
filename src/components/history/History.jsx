@@ -14,7 +14,7 @@ const History = () => {
   return (
     <div className="History" data-aos="fade-left">
       <div className="transparent row">
-        <div className="left col-12 col-md-6 col-lg-4">
+        <div className="left col-12 col-md-6 col-lg-4" data-aos="fade-right">
           <h1>We Are Top Lawyers And History</h1>
           <img src={pattern} alt="" />
           <div>
@@ -48,10 +48,10 @@ const History = () => {
             </div>
           </div>
         </div>
-        <div className="middle col-12 col-md-6 col-lg-4">
+        <div className="middle col-12 col-md-6 col-lg-4" data-aos="zoom-in">
           <img src={themis} alt="" />
         </div>
-        <div className="right col-12 col-md-6 col-lg-4">
+        <div className="right col-12 col-md-6 col-lg-4" data-aos="fade-left">
           <h1>We Are Specialised And Experienced</h1>
           <img src={pattern} alt="" />
           <div>

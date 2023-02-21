@@ -144,7 +144,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <Link className="hvreffct" to="/">
+              <Link className="hvreffct" to="*">
                 Error Page
               </Link>
             </li>

@@ -26,8 +26,9 @@ import BlogPage from "./pages/BlogPage";
 
 //ANIMATION ON SCROLL
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
+import "aos/dist/aos.css";
 import Errorpg from "./components/errorpg/Errorpg";
+// import Errorpg from "./components/errorpg/Errorpg";
 
 // ..
 AOS.init();
@@ -53,13 +54,12 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/pages" element={<Pages />} />
-
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contacting />} />
               <Route path="/laws" element={<Lawss />} />
-              <Route path="*" element={<Errorpg />} />
               <Route path="/form" element={<Appointment />} />
               <Route path="/blogs" element={<BlogPage />} />
+              <Route path="*" element={<Errorpg />} />
             </Routes>
           </AnimatePresence>
           <Footer />

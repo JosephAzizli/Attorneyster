@@ -7,9 +7,7 @@ const Lawss = () => {
   return (
     <>
       <Navbar />
-      <AnimatedPage>
         <Laws />
-      </AnimatedPage>
     </>
   );
 };

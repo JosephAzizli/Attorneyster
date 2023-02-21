@@ -9,7 +9,6 @@ const About = () => {
   return (
     <>
     <Navbar/>
-    <History/>
     <Cases/>
     <Team/>
 </>

@@ -51,9 +51,6 @@
   margin-bottom: 33.08px;
 }
 
-.person {
-  display: flex;
-}
 .avatar {
   width: 84px;
   height: 83px;
@@ -61,6 +58,9 @@
 }
 
 .person div h1 {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
   font-family: "Cormorant Garamond";
   font-style: normal;
   font-weight: 400;

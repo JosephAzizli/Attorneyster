@@ -9,6 +9,7 @@ import pattern from "./images/pattern.svg";
 //JSON
 import cardInfo from "./comments.json";
 import OpinionCard from "./OpinionCard";
+import OpinionCard2 from "./OpinionCard2";
 
 //SWIPERJS
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -53,16 +54,25 @@ const Opinion = () => {
           }}
           className="mySwiper"
         >
-          {cardInfo.map((card) => (
+          {cardInfo.map((card) => card.id%2 ? (
             <SwiperSlide>
               <OpinionCard
                 sekil={card.image}
                 ad={card.name}
                 ish={card.job}
                 rey={card.comment}
-              />
+              /> : 
             </SwiperSlide>
-          ))}
+          ) : 
+          <SwiperSlide>
+          <OpinionCard2
+            sekil={card.image}
+            ad={card.name}
+            ish={card.job}
+            rey={card.comment}
+          />
+        </SwiperSlide> 
+          )}
         </Swiper>
       </div>
     </div>

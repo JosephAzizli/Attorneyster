@@ -1,0 +1,87 @@
+.opinionCard {
+    max-width: 19.5625rem;
+    height: 30.875rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .opinionCard div div h1 {
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 0.4px;
+  
+    color: #ffffff;
+  }
+  
+  .opinionCard div div p {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+  
+    color: #d7d7d7;
+  }
+  .comment {
+    border-radius: 40px 1px 1px 1px ;
+    background: #2e3947;
+    margin-bottom: 20px;
+    height: 24.4375rem;
+    padding: 51px 51px 57px 45px;
+  }
+  
+  .comment p {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+  
+    color: #d7d7d7;
+  }
+  
+  .comment img {
+    width: 30.83px;
+    height: 25.13px;
+    margin-bottom: 33.08px;
+  }
+  
+  .person {
+    display: flex;
+  }
+
+  .avatar {
+    width: 84px;
+    height: 83px;
+    margin-right: 22px;
+  }
+  
+  .person div h1 {
+    margin: 0;
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+  
+    letter-spacing: 0.4px;
+  
+    color: #fff;
+  }
+  
+  .person div p {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+  
+    color: #d7d7d7;
+  }
+  
